@@ -1,0 +1,168 @@
+{
+ "learner": "Adam — English speaker, Melbourne. Reads in LingQ.",
+ "levels": {
+  "target": "~90% of tokens core/taught/half; 5-8 new lemmas per episode, each used 3+ times",
+  "notes": [
+   "2026-11-16: Ep 1 first draft (~80% known) was one notch too hard. LingQ status 1 words (seen once in Harry Potter) are NOT known - treat as new.",
+   "2026-11-16: Ep 1 rewrite at ~7 new lemmas felt right; gaps were exactly the new words."
+  ]
+ },
+ "grammar_stage": {
+  "current": "Stage 1: present tense, nominative + accusative, simple negation, imperative as fixed phrases (otevři / neotvírej). Narrative opener 'byl jednou' allowed.",
+  "next": [
+   "Stage 2: past tense (byl, šel, řekl...) - folk tales naturally switch",
+   "Stage 3: locative after v/na/o",
+   "Stage 4: genitive (u, do, z, bez, od) - 'u lesa' already pre-taught",
+   "Stage 5: instrumental (s, za, před, pod)",
+   "Stage 6: dative (k, komu)",
+   "Stage 7: aspect pairs + motion verbs (jít/chodit, jet/jezdit)"
+  ]
+ },
+ "roadmap": [
+  {
+   "story": "O Budulínkovi (folk tale)",
+   "status": "in progress",
+   "episodes_planned": 3
+  },
+  {
+   "story": "Hloupý Honza (folk tale, Němcová/Erben-style)",
+   "status": "next"
+  },
+  {
+   "story": "Erben folk tales (e.g. Zlatovláska, Dlouhý, Široký a Bystrozraký)",
+   "status": "planned"
+  },
+  {
+   "story": "Čapek - Dášeňka",
+   "status": "planned"
+  },
+  {
+   "story": "Čapek - Devatero pohádek",
+   "status": "planned"
+  },
+  {
+   "story": "Čapek - Povídky z jedné kapsy",
+   "status": "planned"
+  },
+  {
+   "story": "Hašek - Švejk (simplified, obecná čeština introduced gradually)",
+   "status": "later"
+  }
+ ],
+ "lingq": {
+  "course_id": null,
+  "last_sync": "2026-11-16"
+ },
+ "ignore_tokens": [
+  "Budulínek",
+  "Budulínku",
+  "Budulínka",
+  "Budulínkovi",
+  "ťuk",
+  "mmm",
+  "ach"
+ ],
+ "episodes": [
+  "001 - Budulínek a liška.txt"
+ ],
+ "words": {
+  "dědeček": {
+   "first_episode": "001",
+   "total_uses": 9,
+   "recent_uses": 9,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "hodný": {
+   "first_episode": "001",
+   "total_uses": 8,
+   "recent_uses": 8,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "jablko": {
+   "first_episode": "001",
+   "total_uses": 8,
+   "recent_uses": 8,
+   "lingq_status": "known",
+   "needs_review": false
+  },
+  "jenom": {
+   "first_episode": "001",
+   "total_uses": 1,
+   "recent_uses": 1,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "liška": {
+   "first_episode": "001",
+   "total_uses": 17,
+   "recent_uses": 17,
+   "lingq_status": "unknown",
+   "needs_review": false
+  },
+  "neotvíra": {
+   "first_episode": "001",
+   "total_uses": 3,
+   "recent_uses": 3,
+   "lingq_status": "unknown",
+   "needs_review": true
+  },
+  "neotvírej": {
+   "first_episode": "001",
+   "total_uses": 6,
+   "recent_uses": 6,
+   "lingq_status": "unknown",
+   "needs_review": true
+  },
+  "nikdo": {
+   "first_episode": "001",
+   "total_uses": 2,
+   "recent_uses": 2,
+   "lingq_status": "familiar",
+   "needs_review": false
+  },
+  "někdo": {
+   "first_episode": "001",
+   "total_uses": 1,
+   "recent_uses": 1,
+   "lingq_status": "familiar",
+   "needs_review": false
+  },
+  "otevřít": {
+   "first_episode": "001",
+   "total_uses": 3,
+   "recent_uses": 3,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "polévka": {
+   "first_episode": "001",
+   "total_uses": 9,
+   "recent_uses": 9,
+   "lingq_status": "known",
+   "needs_review": false
+  },
+  "pryč": {
+   "first_episode": "001",
+   "total_uses": 2,
+   "recent_uses": 2,
+   "lingq_status": "familiar",
+   "needs_review": false
+  },
+  "trocha": {
+   "first_episode": "001",
+   "total_uses": 4,
+   "recent_uses": 4,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "zlatý": {
+   "first_episode": "001",
+   "total_uses": 4,
+   "recent_uses": 4,
+   "lingq_status": "familiar",
+   "needs_review": false
+  }
+ }
+}
