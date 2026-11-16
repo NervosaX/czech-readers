@@ -12,7 +12,8 @@
    "2026-11-16: Adam struggles with irregular verb forms, e.g. jdou (jít). Recycle the full present paradigm of jít/mít/být/chtít/moci in context - groups moving (jdou, jdeme, jdete), dialogue with ty/vy - not just 3rd-person singular.",
    "2026-11-16: Adam finished s01/001 and rated it excellent - current level/new-word rate confirmed.",
    "2026-11-16: Vocab feels easy; Adam's goal is the top 1000-2000 words. New words must come mainly from scripts/targets.py (frequency order), not story-specific nouns. Per reader: 8-10 new lemmas, >=6 from the top 2000, max 2 story-specific (rank >3000) words. Pick stories/scenes that naturally need the target words.",
-   "2026-11-16 LingQ library review (630 lessons): LingQ Mini Stories (~0% new, 75 done) and Painless Czech = too easy; Slow Czech Podcast (~19% unknown, 149 opened, 2 finished) and Easy Czech videos (~12-15%) = too hard; HP (~1% after lookups) done slowly. Sweet spot is between: target ~3-8% new tokens per reader."
+   "2026-11-16 LingQ library review (630 lessons): LingQ Mini Stories (~0% new, 75 done) and Painless Czech = too easy; Slow Czech Podcast (~19% unknown, 149 opened, 2 finished) and Easy Czech videos (~12-15%) = too hard; HP (~1% after lookups) done slowly. Sweet spot is between: target ~3-8% new tokens per reader.",
+   "2026-11-17: Read s01/001-003 (+ started 004): 'feels okay, several words need more reading to stick'. Adam demoted dál/lepší/potom/zítra from known to 3 - he re-rates honestly. Sticky words: táhnout, díra, poslouchat, otevírat/neotvírám, přijít, odpovídat - recycle these."
   ]
  },
  "current_stage": {
@@ -54,12 +55,28 @@
   "course_url_s01": "https://www.lingq.com/en/learn/cs/web/library/course/2972731",
   "last_sync": "2026-11-16",
   "title_format": "NNN Title (number within stage)",
-  "last_sync_utc": "2026-11-16T06:46:33",
-  "max_card_pk": 869968265,
+  "last_sync_utc": "2026-11-16T21:57:30",
+  "max_card_pk": 870162969,
   "looked_up_last_sync": [
-   "liška",
-   "neotvírej",
-   "polévka"
+   "táhne",
+   "lišky",
+   "neodpovídá",
+   "díře",
+   "hop",
+   "poslouchají",
+   "housle",
+   "nepřijde",
+   "řepu",
+   "dědečku",
+   "neotvírám",
+   "babičko",
+   "liško",
+   "předchozí",
+   "označil",
+   "dokončené",
+   "hruška",
+   "dotáhl",
+   "četbou"
   ]
  },
  "ignore_tokens": [
@@ -124,7 +141,7 @@
    "first_episode": "s01/001",
    "total_uses": 22,
    "recent_uses": 2,
-   "lingq_status": "new1",
+   "lingq_status": "familiar",
    "needs_review": false
   },
   "jablko": {
@@ -145,14 +162,14 @@
    "first_episode": "s01/001",
    "total_uses": 93,
    "recent_uses": 21,
-   "lingq_status": "new1",
+   "lingq_status": "known",
    "needs_review": false
   },
   "neotvíra": {
    "first_episode": "s01/001",
    "total_uses": 9,
    "recent_uses": 0,
-   "lingq_status": "unknown",
+   "lingq_status": "new1",
    "needs_review": true
   },
   "neotvírej": {
@@ -178,7 +195,7 @@
   },
   "otevřít": {
    "first_episode": "s01/001",
-   "total_uses": 20,
+   "total_uses": 19,
    "recent_uses": 2,
    "lingq_status": "new1",
    "needs_review": false
@@ -188,6 +205,13 @@
    "total_uses": 14,
    "recent_uses": 0,
    "lingq_status": "known",
+   "needs_review": false
+  },
+  "potom": {
+   "first_episode": "s01/001",
+   "total_uses": 24,
+   "recent_uses": 6,
+   "lingq_status": "familiar",
    "needs_review": false
   },
   "pryč": {
@@ -229,7 +253,7 @@
    "first_episode": "s01/002",
    "total_uses": 12,
    "recent_uses": 0,
-   "lingq_status": "new1",
+   "lingq_status": "familiar",
    "needs_review": false
   },
   "kaše": {
@@ -245,6 +269,13 @@
    "recent_uses": 5,
    "lingq_status": "new1",
    "needs_review": true
+  },
+  "zítra": {
+   "first_episode": "s01/002",
+   "total_uses": 6,
+   "recent_uses": 0,
+   "lingq_status": "familiar",
+   "needs_review": false
   },
   "běžet": {
    "first_episode": "s01/003",
@@ -266,6 +297,13 @@
    "recent_uses": 3,
    "lingq_status": "new1",
    "needs_review": true
+  },
+  "lepšit": {
+   "first_episode": "s01/003",
+   "total_uses": 2,
+   "recent_uses": 1,
+   "lingq_status": "familiar",
+   "needs_review": false
   },
   "míč": {
    "first_episode": "s01/003",
@@ -320,7 +358,7 @@
    "first_episode": "s01/004",
    "total_uses": 3,
    "recent_uses": 0,
-   "lingq_status": "unknown",
+   "lingq_status": "new1",
    "needs_review": true
   },
   "krásně": {
@@ -764,6 +802,13 @@
    "lingq_status": "unknown",
    "needs_review": true
   },
+  "otevírat": {
+   "first_episode": "s01/010",
+   "total_uses": 1,
+   "recent_uses": 0,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
   "ošklivý": {
    "first_episode": "s01/010",
    "total_uses": 4,
@@ -990,8 +1035,8 @@
   },
   "dračice": {
    "first_episode": "s01/015",
-   "total_uses": 26,
-   "recent_uses": 26,
+   "total_uses": 25,
+   "recent_uses": 25,
    "lingq_status": "known",
    "needs_review": false
   },
@@ -1035,6 +1080,13 @@
    "total_uses": 2,
    "recent_uses": 2,
    "lingq_status": "new1",
+   "needs_review": true
+  },
+  "draku": {
+   "first_episode": "s01/016",
+   "total_uses": 1,
+   "recent_uses": 1,
+   "lingq_status": "unknown",
    "needs_review": true
   },
   "nehraj": {
