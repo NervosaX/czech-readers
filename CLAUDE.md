@@ -10,12 +10,14 @@ actual LingQ vocabulary, getting closer to the originals over time.
   and recycled in the next few. `needs_review` words in ledger.json get extra uses.
 - LingQ status 1-2 = NEW (he looked it up once; it did not stick). Status 3 = half.
   Status 4 / known (API status 3) = known.
-- Follow `ledger.json → grammar_stage`. Only move to the next stage after a few
-  episodes of heavy repetition of the current one.
+- **`CURRICULUM.md` is the plan.** Follow its stages, phases (introduce → saturate →
+  consolidate → gate) and per-reader rules. Hundreds of readers per stage; never
+  advance without passing the gate. Log gate decisions in `ledger.levels.notes`.
 - Sources are public domain only (folk tales, Erben, Němcová, Čapek, Hašek).
   Retell in our own simplified words; later versions move toward the original text.
 - Run 2-3 story threads at once (a short folk tale + a longer Čapek thread) for variety.
-- Episodes ~250-500 words, numbered `NNN - Title.txt`, title on line 1. No "(1)" in titles.
+- Readers live in `episodes/sNN/NNN - Title.txt` (stage folder, 3-digit number within
+  the stage), title on line 1. No "(1)" in titles. Length grows by stage (see CURRICULUM).
 - Adam's messages are concise; give him trade-offs, not specs.
 - Stories should get richer as he improves: longer, more complex sentences, more
   literary texture - not just more vocabulary.
@@ -31,11 +33,12 @@ actual LingQ vocabulary, getting closer to the originals over time.
    `python3 scripts/build_vocab.py data/lingq/known_words.json data/lingq/cards.json`
    and `python3 scripts/update_ledger.py`.
 3. Read `ledger.json` (difficulty notes, grammar stage, roadmap, needs_review words).
-4. Write ~5 episodes. Check each with `python3 scripts/check.py "episodes/NNN - ....txt"`,
+4. Write ~5-10 readers. Check each with `python3 scripts/check.py "episodes/sNN/NNN - ....txt"`,
    revise until it meets the targets. Add character names to `ignore_tokens`.
 5. `python3 scripts/update_ledger.py`; update roadmap/grammar notes; commit + push.
-6. Upload to the LingQ course (ledger.lingq.course_id = 2972731, "Graded Readers (AI)")
-   via Chrome. Working method (2026-11-16): in a tab on lingq.com, run JS:
+6. Upload to the stage's LingQ course (`ledger.lingq.courses`; Stage 1 = 2972731,
+   "Graded Readers (AI)") via Chrome. Delete a lesson: DELETE /api/v3/cs/lessons/<id>/
+   with the same CSRF header (only with Adam's OK). Working method (2026-11-16): in a tab on lingq.com, run JS:
    `fetch('/api/v3/cs/lessons/import/', {method:'POST', credentials:'include',
    headers:{'X-CSRFToken': <csrftoken cookie>}, body: FormData{title, text,
    collection: 2972731, status:'private', save:'true'}})` → 201 with lesson id.
@@ -46,8 +49,9 @@ actual LingQ vocabulary, getting closer to the originals over time.
 7. Ask Adam how the batch felt; record his answer in `ledger.levels.notes`.
 
 ## Files
-- `episodes/` — the course text
-- `ledger.json` — course state: levels/notes, grammar stage, roadmap, word exposure
+- `CURRICULUM.md` — stages, phases, gates, story sources
+- `episodes/sNN/` — the readers, one folder per stage
+- `ledger.json` — course state: current stage/phase, notes, roadmap, word exposure
 - `data/lingq/` — latest LingQ snapshots (private data, keep repo private)
 - `data/cs_50k.txt` — Czech subtitle frequency list (hermitdave/FrequencyWords)
 - `data/vocab.json` — generated lemma tiers (rebuild after each sync)

@@ -1,6 +1,6 @@
 """Check an episode's vocabulary against Adam's LingQ data and the course ledger.
 
-Usage: python3 scripts/check.py "episodes/002 - ....txt"
+Usage: python3 scripts/check.py "episodes/s01/004 - ....txt"
 
 Tiers:
   core    known/status-4+ in LingQ AND in top ~1500 lemmas
@@ -18,7 +18,7 @@ ledger = json.load(open(os.path.join(ROOT, 'ledger.json'), encoding='utf8'))
 IGN = {w.lower() for w in ledger.get('ignore_tokens', [])}
 
 path = sys.argv[1]
-ep_id = os.path.basename(path)[:3]
+ep_id = os.path.basename(os.path.dirname(os.path.abspath(path))) + '/' + os.path.basename(path)[:3]  # e.g. s01/004
 taught = {l for l, d in ledger['words'].items() if d['first_episode'] < ep_id}
 
 txt = open(path, encoding='utf8').read()

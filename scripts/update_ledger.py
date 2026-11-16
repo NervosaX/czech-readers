@@ -14,11 +14,11 @@ lp = os.path.join(ROOT, 'ledger.json')
 ledger = json.load(open(lp, encoding='utf8'))
 IGN = {w.lower() for w in ledger.get('ignore_tokens', [])}
 
-eps = sorted(glob.glob(os.path.join(ROOT, 'episodes', '*.txt')))
+eps = sorted(glob.glob(os.path.join(ROOT, 'episodes', 's*', '*.txt')))
 words = {}
 per_ep = []
 for p in eps:
-    eid = os.path.basename(p)[:3]
+    eid = os.path.basename(os.path.dirname(p)) + '/' + os.path.basename(p)[:3]
     c = collections.Counter()
     for t in re.findall(r"[^\W\d_]+", open(p, encoding='utf8').read()):
         if t.lower() in IGN: continue
@@ -36,7 +36,9 @@ for l, d in words.items():
     d['needs_review'] = d['lingq_status'] in ('new1', 'unknown') and d['total_uses'] < 12
 
 ledger['words'] = dict(sorted(words.items(), key=lambda kv: (kv[1]['first_episode'], kv[0])))
-ledger['episodes'] = [os.path.basename(p) for p in eps]
+ledger['episodes'] = [os.path.relpath(p, os.path.join(ROOT, 'episodes')) for p in eps]
+stage_counts = collections.Counter(e.split('/')[0] for e in ledger['episodes'])
+ledger['readers_per_stage'] = dict(sorted(stage_counts.items()))
 json.dump(ledger, open(lp, 'w', encoding='utf8'), ensure_ascii=False, indent=1)
 print(f'{len(eps)} episodes, {len(words)} tracked words, '
       f'{sum(d["needs_review"] for d in words.values())} need review')
