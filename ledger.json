@@ -11,7 +11,8 @@
    "2026-11-16: Adam wants new vocabulary to keep flowing alongside grammar, slowly - never pause vocab for grammar. Introduce phases use 3-5 new lemmas (not 2-4); saturate phases 5-8.",
    "2026-11-16: Adam struggles with irregular verb forms, e.g. jdou (jít). Recycle the full present paradigm of jít/mít/být/chtít/moci in context - groups moving (jdou, jdeme, jdete), dialogue with ty/vy - not just 3rd-person singular.",
    "2026-11-16: Adam finished s01/001 and rated it excellent - current level/new-word rate confirmed.",
-   "2026-11-16: Vocab feels easy; Adam's goal is the top 1000-2000 words. New words must come mainly from scripts/targets.py (frequency order), not story-specific nouns. Per reader: 8-10 new lemmas, >=6 from the top 2000, max 2 story-specific (rank >3000) words. Pick stories/scenes that naturally need the target words."
+   "2026-11-16: Vocab feels easy; Adam's goal is the top 1000-2000 words. New words must come mainly from scripts/targets.py (frequency order), not story-specific nouns. Per reader: 8-10 new lemmas, >=6 from the top 2000, max 2 story-specific (rank >3000) words. Pick stories/scenes that naturally need the target words.",
+   "2026-11-16 LingQ library review (630 lessons): LingQ Mini Stories (~0% new, 75 done) and Painless Czech = too easy; Slow Czech Podcast (~19% unknown, 149 opened, 2 finished) and Easy Czech videos (~12-15%) = too hard; HP (~1% after lookups) done slowly. Sweet spot is between: target ~3-8% new tokens per reader."
   ]
  },
  "current_stage": {
@@ -30,9 +31,9 @@
   },
   {
    "stage": 1,
-   "story": "Čapek - Dášeňka čili život štěněte, then Měl jsem psa a kočku",
+   "story": "Josef Čapek - Povídání o pejskovi a kočičce",
    "status": "next",
-   "note": "Adam has read a little of Měl jsem psa a kočku in the original - good bridge: simplified retelling now, original later. Everyday home vocab suits the top-2000 targets. He stopped in the original where Čapek addresses the reader directly - keep that chatty narrator-to-reader voice in the retellings (vy forms: víte, máte, představte si; fillers prostě/vlastně/přece)."
+   "note": "This is the dog-and-cat book Adam started in LingQ (imported as 'About a cat and a dog', mislabelled Karel Čapek; LingQ showed 100-500 unknown words per lesson). Domestic, everyday vocab - ideal for top-2000 targets. Keep the narrator's direct address to the reader (vy forms, fillers). Episodes he knows: myli podlahu, dělali dort, roztrhal kalhoty, pyšná noční košilka. Then Karel Čapek's Dášeňka."
   },
   {
    "stage": 1,
