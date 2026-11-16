@@ -12,8 +12,8 @@ Stage N:   introduce ─▶ saturate ──────────────�
 ```
 
 - **Introduce (~10 readers):** the new grammar point shows up constantly, in very
-  simple, familiar contexts. These readers hold back on new vocabulary (2-4 new
-  lemmas) so all the effort goes into the grammar.
+  simple, familiar contexts. These readers ease off on new vocabulary (3-5 new
+  lemmas, never zero) so most of the effort goes into the grammar.
 - **Saturate (most of the stage):** the new point is simply *normal*. Stories vary
   (new tales, genres, narrators, dialogue-heavy vs. descriptive), the vocabulary
   band widens at the usual rate (5-8 new lemmas per reader), and everything from
@@ -93,7 +93,8 @@ To keep hundreds of readers on one plateau from going stale, rotate:
 
 - ≥90% of tokens are core / taught / half-known (`scripts/check.py`); in the
   Introduce phase aim for ≥95%.
-- 5-8 genuinely new lemmas per reader (2-4 in the Introduce phase), each used 3+ times.
+- 5-8 genuinely new lemmas per reader (3-5 in the Introduce phase - vocabulary never
+  stops), each used 3+ times.
 - Words flagged `needs_review` in `ledger.json` get worked into the next readers.
 - Only grammar from the current stage or earlier. A later-stage form may appear as a
   fixed phrase (e.g. "Byl jednou jeden…" in Stage 1) but is never relied on.
