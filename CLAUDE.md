@@ -17,6 +17,8 @@ actual LingQ vocabulary, getting closer to the originals over time.
 - Run 2-3 story threads at once (a short folk tale + a longer Čapek thread) for variety.
 - Episodes ~250-500 words, numbered `NNN - Title.txt`, title on line 1. No "(1)" in titles.
 - Adam's messages are concise; give him trade-offs, not specs.
+- Stories should get richer as he improves: longer, more complex sentences, more
+  literary texture - not just more vocabulary.
 
 ## Batch routine ("next batch")
 1. **Sync LingQ** via Claude in Chrome (he is signed in): open a tab on
@@ -32,8 +34,15 @@ actual LingQ vocabulary, getting closer to the originals over time.
 4. Write ~5 episodes. Check each with `python3 scripts/check.py "episodes/NNN - ....txt"`,
    revise until it meets the targets. Add character names to `ignore_tokens`.
 5. `python3 scripts/update_ledger.py`; update roadmap/grammar notes; commit + push.
-6. Upload to the LingQ course (ledger.lingq.course_id) via Chrome, or hand Adam the
-   files for Bulk Import if upload fails. Record any working upload method here.
+6. Upload to the LingQ course (ledger.lingq.course_id = 2972731, "Graded Readers (AI)")
+   via Chrome. Working method (2026-11-16): in a tab on lingq.com, run JS:
+   `fetch('/api/v3/cs/lessons/import/', {method:'POST', credentials:'include',
+   headers:{'X-CSRFToken': <csrftoken cookie>}, body: FormData{title, text,
+   collection: 2972731, status:'private', save:'true'}})` → 201 with lesson id.
+   Title format: `NNN Title` (e.g. "002 Zlatá hruška"); text = file minus title line.
+   v2 /lessons/ is dead ("API is obsolete"). Check the course list first
+   (`/api/v3/cs/collections/2972731/lessons/`) to avoid duplicates. Never upload a
+   test fragment - upload the real episode. Fallback: hand Adam the files for Bulk Import.
 7. Ask Adam how the batch felt; record his answer in `ledger.levels.notes`.
 
 ## Files
