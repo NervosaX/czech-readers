@@ -35,7 +35,7 @@ actual LingQ vocabulary, getting closer to the originals over time.
    `python3 scripts/build_vocab.py data/lingq/known_words.json data/lingq/cards.json`
    and `python3 scripts/update_ledger.py`.
 3. Read `ledger.json` (difficulty notes, grammar stage, roadmap, needs_review words).
-4. Write ~5-10 readers. Check each with `python3 scripts/check.py "episodes/sNN/NNN - ....txt"`,
+4. Run `python3 scripts/targets.py 80` and plan the batch around those words. Write ~5-10 readers. Check each with `python3 scripts/check.py "episodes/sNN/NNN - ....txt"`,
    revise until it meets the targets. Add character names to `ignore_tokens`.
 5. `python3 scripts/update_ledger.py`; update roadmap/grammar notes; commit + push.
 6. Upload to the stage's LingQ course (`ledger.lingq.courses`; Stage 1 = 2972731,

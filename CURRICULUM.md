@@ -95,6 +95,10 @@ To keep hundreds of readers on one plateau from going stale, rotate:
   Introduce phase aim for ≥95%.
 - 5-8 genuinely new lemmas per reader (3-5 in the Introduce phase - vocabulary never
   stops), each used 3+ times.
+- **New words come from the frequency list** (`scripts/targets.py`), not from whatever
+  the story happens to need: >=5 of each reader's new lemmas from the current band
+  (top 2000 in Stage 1), at most 2 story-specific rare words. Choose and shape
+  stories so the target words are natural in them.
 - Words flagged `needs_review` in `ledger.json` get worked into the next readers.
 - Only grammar from the current stage or earlier. A later-stage form may appear as a
   fixed phrase (e.g. "Byl jednou jeden…" in Stage 1) but is never relied on.

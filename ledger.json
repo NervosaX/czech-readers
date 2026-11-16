@@ -10,7 +10,8 @@
    "2026-11-16 placement follow-up: Test A (present tense) read fine - only some 'known' words needed effort (confused hledat 'search' vs hrát 'play'). So Stage 1 = vocabulary automaticity, not present-tense grammar. Recycle core words heavily (esp. look-alikes like hledat/hrát) so they become instant. Gate to Stage 2 (past tense, start with twin readers) when Stage 1 readers feel easy.",
    "2026-11-16: Adam wants new vocabulary to keep flowing alongside grammar, slowly - never pause vocab for grammar. Introduce phases use 3-5 new lemmas (not 2-4); saturate phases 5-8.",
    "2026-11-16: Adam struggles with irregular verb forms, e.g. jdou (jít). Recycle the full present paradigm of jít/mít/být/chtít/moci in context - groups moving (jdou, jdeme, jdete), dialogue with ty/vy - not just 3rd-person singular.",
-   "2026-11-16: Adam finished s01/001 and rated it excellent - current level/new-word rate confirmed."
+   "2026-11-16: Adam finished s01/001 and rated it excellent - current level/new-word rate confirmed.",
+   "2026-11-16: Vocab feels easy; Adam's goal is the top 1000-2000 words. New words must come mainly from scripts/targets.py (frequency order), not story-specific nouns. Per reader: >=5 new lemmas from the top 2000, max 2 story-specific (rank >3000) words. Pick stories/scenes that naturally need the target words."
   ]
  },
  "current_stage": {
@@ -1060,5 +1061,34 @@
  },
  "readers_per_stage": {
   "s01": 16
- }
+ },
+ "target_skip": [
+  "bůh",
+  "case",
+  "děj",
+  "hej",
+  "hele",
+  "hra",
+  "kurva",
+  "kámo",
+  "loď",
+  "mami",
+  "my",
+  "oh",
+  "ok",
+  "okay",
+  "pohoda",
+  "policie",
+  "prdel",
+  "sakra",
+  "tati",
+  "teda",
+  "tým",
+  "vy",
+  "wow",
+  "zabít",
+  "zbraň",
+  "zlato",
+  "řeknout"
+ ]
 }

@@ -42,5 +42,10 @@ print('tokens', tot)
 for t in ('core', 'taught', 'half', 'new'):
     n = sum(x for _, x in groups[t])
     print(f'{t:6}: {len(groups[t]):3} lemmas, {n:4} tokens ({100*n/tot:.1f}%)')
+RANK = json.load(open(os.path.join(ROOT, 'data/vocab.json'), encoding='utf8'))['rank']
+rk = lambda l: RANK.get(l, 99999)
 for t in ('taught', 'half', 'new'):
-    print(t.upper(), sorted([(l, n, '/'.join(sorted(forms[l]))) for l, n in groups[t]], key=lambda x: -x[1]))
+    print(t.upper(), sorted([(l, n, rk(l)) for l, n in groups[t]], key=lambda x: -x[1]))
+fresh = [l for l, _ in groups['new'] + groups['half']]
+print(f"FREQUENCY: new/half lemmas in top 2000: {sum(rk(l) <= 2000 for l in fresh)}/{len(fresh)}; "
+      f"story-specific (rank >3000): {[l for l in fresh if rk(l) > 3000]}")
