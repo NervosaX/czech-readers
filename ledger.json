@@ -6,14 +6,16 @@
    "2026-11-16: Ep 1 first draft (~80% known) was one notch too hard. LingQ status 1 words (seen once in Harry Potter) are NOT known - treat as new.",
    "2026-11-16: Ep 1 rewrite at ~7 new lemmas felt right; gaps were exactly the new words.",
    "2026-11-16: Adam wants the stories to get richer and better as his comprehension improves - grow length, sentence complexity and literary quality with his level, not just vocabulary.",
-   "2026-11-16 placement: tests A-F felt too hard - Adam understands the words but tense/case endings don't register automatically. Vocabulary is ahead of grammar. Decision: start Stage 1 (present tense), long plateau until present-tense endings are instant; grammar automaticity is the main goal."
+   "2026-11-16 placement: tests A-F felt too hard - Adam understands the words but tense/case endings don't register automatically. Vocabulary is ahead of grammar. Decision: start Stage 1 (present tense), long plateau until present-tense endings are instant; grammar automaticity is the main goal.",
+   "2026-11-16 placement follow-up: Test A (present tense) read fine - only some 'known' words needed effort (confused hledat 'search' vs hrát 'play'). So Stage 1 = vocabulary automaticity, not present-tense grammar. Recycle core words heavily (esp. look-alikes like hledat/hrát) so they become instant. Gate to Stage 2 (past tense, start with twin readers) when Stage 1 readers feel easy."
   ]
  },
  "current_stage": {
   "stage": 1,
   "name": "Present tense",
   "phase": "introduce",
-  "see": "CURRICULUM.md"
+  "see": "CURRICULUM.md",
+  "focus": "Vocabulary automaticity on core/half words; present tense already OK."
  },
  "roadmap": [
   {
