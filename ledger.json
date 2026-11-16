@@ -60,7 +60,14 @@
   },
   "course_url_s01": "https://www.lingq.com/en/learn/cs/web/library/course/2972731",
   "last_sync": "2026-11-16",
-  "title_format": "NNN Title (number within stage)"
+  "title_format": "NNN Title (number within stage)",
+  "last_sync_utc": "2026-11-16T06:46:33",
+  "max_card_pk": 869968265,
+  "looked_up_last_sync": [
+   "liška",
+   "neotvírej",
+   "polévka"
+  ]
  },
  "ignore_tokens": [
   "Budulínek",
@@ -103,7 +110,7 @@
    "first_episode": "s01/001",
    "total_uses": 56,
    "recent_uses": 30,
-   "lingq_status": "new1",
+   "lingq_status": "known",
    "needs_review": false
   },
   "hodný": {
@@ -131,7 +138,7 @@
    "first_episode": "s01/001",
    "total_uses": 72,
    "recent_uses": 19,
-   "lingq_status": "unknown",
+   "lingq_status": "new1",
    "needs_review": false
   },
   "neotvíra": {
@@ -145,7 +152,7 @@
    "first_episode": "s01/001",
    "total_uses": 16,
    "recent_uses": 0,
-   "lingq_status": "unknown",
+   "lingq_status": "new1",
    "needs_review": false
   },
   "nikdo": {
@@ -353,8 +360,8 @@
   },
   "ven": {
    "first_episode": "s01/004",
-   "total_uses": 14,
-   "recent_uses": 14,
+   "total_uses": 13,
+   "recent_uses": 13,
    "lingq_status": "familiar",
    "needs_review": false
   },
@@ -406,6 +413,13 @@
    "recent_uses": 33,
    "lingq_status": "new1",
    "needs_review": false
+  },
+  "venku": {
+   "first_episode": "s01/005",
+   "total_uses": 1,
+   "recent_uses": 1,
+   "lingq_status": "new1",
+   "needs_review": true
   },
   "vnučka": {
    "first_episode": "s01/005",
