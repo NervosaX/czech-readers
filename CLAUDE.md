@@ -23,17 +23,15 @@ actual LingQ vocabulary, getting closer to the originals over time.
   literary texture - not just more vocabulary.
 
 ## Batch routine ("next batch")
-1. **Sync LingQ (delta)** via Claude in Chrome (he is signed in), on a lingq.com tab:
-   `python3 scripts/make_sync_js.py > /tmp/sync.js`, paste it into javascript_tool, poll
-   until done (~50 s), read `window._sync.out` (in 1800-char slices if long) into
-   `/tmp/delta.txt`, run `python3 scripts/apply_delta.py /tmp/delta.txt`, then
-   `window._sync.commit()` in the tab. Details in the script docstring. The `N` lookups
-   (words Adam looked up since last sync) are the best signal of what hasn't stuck -
-   give those extra repetitions. Full re-download (Blob → Adam attaches) only if the
-   browser baseline is lost ('NOBASE').
-2. `pip install --break-system-packages simplemma`, then
-   `python3 scripts/build_vocab.py data/lingq/known_words.json data/lingq/cards.json`
-   and `python3 scripts/update_ledger.py`.
+1. **Sync LingQ** (~3 s) via Claude in Chrome, on any lingq.com tab:
+   `python3 scripts/make_sync_js.py > /tmp/sync.js`, paste it into javascript_tool (it
+   awaits and returns the delta; if it says LONG, read `window._syncOut` in slices),
+   save to `/tmp/delta.txt`, run `python3 scripts/sync.py /tmp/delta.txt` (applies,
+   rebuilds vocab + ledger, commits, prints a summary), then `window._syncCommit()`.
+   It reads per-lesson word statuses for the course (`/api/v3/cs/lessons/<id>/words/`,
+   `/api/v2/cs/lesson-stats/<id>/`) - 'sticky' = words in READ readers still at
+   LingQ 1-3: give them extra repetitions. Details in the script docstring.
+2. (`pip install --break-system-packages simplemma` first if missing - sync.py needs it.)
 3. Read `ledger.json` (difficulty notes, grammar stage, roadmap, needs_review words).
 4. Run `python3 scripts/targets.py 80` and plan the batch around those words. Write ~5-10 readers. Check each with `python3 scripts/check.py "episodes/sNN/NNN - ....txt"`,
    revise until it meets the targets. Add character names to `ignore_tokens`.
