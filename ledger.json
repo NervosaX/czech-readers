@@ -55,29 +55,143 @@
   "course_url_s01": "https://www.lingq.com/en/learn/cs/web/library/course/2972731",
   "last_sync": "2026-11-16",
   "title_format": "NNN Title (number within stage)",
-  "last_sync_utc": "2026-11-16T21:57:30",
+  "last_sync_utc": "2026-11-16T22:02:06",
   "max_card_pk": 870162969,
-  "looked_up_last_sync": [
-   "táhne",
-   "lišky",
-   "neodpovídá",
-   "díře",
+  "looked_up_last_sync": [],
+  "sticky_in_read_lessons": [
+   "bez",
+   "běžet",
+   "daleko",
+   "druhý",
+   "dát",
+   "díra",
+   "hlad",
+   "hloupý",
+   "hodný",
    "hop",
-   "poslouchají",
    "housle",
-   "nepřijde",
-   "řepu",
-   "dědečku",
-   "neotvírám",
-   "babičko",
-   "liško",
-   "předchozí",
-   "označil",
-   "dokončené",
    "hruška",
-   "dotáhl",
-   "četbou"
-  ]
+   "hrát",
+   "jenom",
+   "jmenovat",
+   "jídlo",
+   "jíst",
+   "jít",
+   "kaše",
+   "kočka",
+   "křičet",
+   "lepšit",
+   "liška",
+   "myška",
+   "mít",
+   "míč",
+   "neotvíra",
+   "neotvírej",
+   "neplač",
+   "nikdo",
+   "někdo",
+   "odpovídat",
+   "otevřený",
+   "otevřít",
+   "pláč",
+   "podívat",
+   "polévka",
+   "pomoci",
+   "poslouchat",
+   "potom",
+   "pryč",
+   "pytel",
+   "přijít",
+   "rozumět",
+   "rychle",
+   "rád",
+   "samý",
+   "sedět",
+   "sem",
+   "tam",
+   "trocha",
+   "tvůj",
+   "táhnout",
+   "třetí",
+   "ven",
+   "venku",
+   "vnučka",
+   "volat",
+   "vědět",
+   "zahrada",
+   "zlatý",
+   "zítra",
+   "čekat",
+   "čtvrtý",
+   "řepa",
+   "ťuk"
+  ],
+  "reading": {
+   "001": {
+    "read_times": 1.7,
+    "lookups": 6
+   },
+   "002": {
+    "read_times": 1.0,
+    "lookups": 1
+   },
+   "003": {
+    "read_times": 1.0,
+    "lookups": 3
+   },
+   "004": {
+    "read_times": 1.0,
+    "lookups": 4
+   },
+   "005": {
+    "read_times": 0.2,
+    "lookups": 2
+   },
+   "006": {
+    "read_times": 0.0,
+    "lookups": 0
+   },
+   "007": {
+    "read_times": 0.0,
+    "lookups": 0
+   },
+   "008": {
+    "read_times": 0.0,
+    "lookups": 0
+   },
+   "009": {
+    "read_times": 0.0,
+    "lookups": 0
+   },
+   "010": {
+    "read_times": 0.0,
+    "lookups": 0
+   },
+   "011": {
+    "read_times": 0.0,
+    "lookups": 0
+   },
+   "012": {
+    "read_times": 0.0,
+    "lookups": 0
+   },
+   "013": {
+    "read_times": 0.0,
+    "lookups": 0
+   },
+   "014": {
+    "read_times": 0.0,
+    "lookups": 0
+   },
+   "015": {
+    "read_times": 0.0,
+    "lookups": 0
+   },
+   "016": {
+    "read_times": 0.0,
+    "lookups": 0
+   }
+  }
  },
  "ignore_tokens": [
   "Budulínek",

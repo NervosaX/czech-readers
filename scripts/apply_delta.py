@@ -19,9 +19,10 @@ json.dump(known, open(kp_, 'w', encoding='utf8'), ensure_ascii=False)
 cards = json.load(open(cp_, encoding='utf8'))
 idx = {c['term']: c for c in cards}
 looked_up = []
-for key in ('C', 'N'):
+for key in ('C', 'N', 'U'):
     for item in split(sec.get(key, '')):
         term, _, st = item.rpartition('=')
+        if int(st) < 0: continue  # never-seen word in a read lesson (blue) - no card
         if term in idx: idx[term]['status'] = int(st)
         else:
             c = {'term': term, 'status': int(st), 'extended_status': None, 'hint': ''}; cards.append(c); idx[term] = c
@@ -30,6 +31,13 @@ json.dump(cards, open(cp_, 'w', encoding='utf8'), ensure_ascii=False)
 L = json.load(open(lp, encoding='utf8'))
 L['lingq']['max_card_pk'] = int(sec['M']); L['lingq']['last_sync_utc'] = sec['T']; L['lingq']['last_sync'] = sec['T'][:10]
 L['lingq']['looked_up_last_sync'] = looked_up
+if 'U' in sec:
+    import simplemma
+    sticky = sorted({simplemma.lemmatize(x.rpartition('=')[0].lower(), lang='cs') for x in split(sec['U'])})
+    L['lingq']['sticky_in_read_lessons'] = sticky
+if 'R' in sec:
+    L['lingq']['reading'] = {r.split(':')[0]: {'read_times': round(float(r.split(':')[1]), 1), 'lookups': int(r.split(':')[2])}
+                             for r in split(sec['R'])}
 json.dump(L, open(lp, 'w', encoding='utf8'), ensure_ascii=False, indent=1)
 print(f"known +{len(split(sec.get('K+','')))} -{len(km)}; cards changed {len(split(sec.get('C','')))}; "
       f"new lookups {len(looked_up)}: {', '.join(looked_up[:40])}")
