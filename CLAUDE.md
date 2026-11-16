@@ -48,6 +48,14 @@ actual LingQ vocabulary, getting closer to the originals over time.
    test fragment - upload the real episode. Fallback: hand Adam the files for Bulk Import.
 7. Ask Adam how the batch felt; record his answer in `ledger.levels.notes`.
 
+## Keeping docs lean
+- `CURRICULUM.md` and `CLAUDE.md` are the plan and the method: no progress logs, word
+  lists or per-batch notes in them.
+- Progress lives only in `ledger.json`. `levels.notes` holds decisions and feedback that
+  change how readers are written (one line each); when it passes ~10 lines, fold older
+  ones into a short summary line. Roadmap entries: one line per story, drop finished
+  ones once they're in `episodes/`.
+
 ## Files
 - `CURRICULUM.md` — stages, phases, gates, story sources
 - `episodes/sNN/` — the readers, one folder per stage
