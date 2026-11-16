@@ -21,27 +21,31 @@
   {
    "stage": 1,
    "story": "O Budulínkovi",
-   "status": "in progress",
-   "note": "s01/001-003 written. 004: rescue - grandparents play music at the den, fox kits come out one by one."
-  },
-  {
-   "stage": 1,
-   "story": "Kohoutek a slepička",
-   "status": "next"
+   "status": "done",
+   "readers": "s01/001-004"
   },
   {
    "stage": 1,
    "story": "O veliké řepě",
-   "status": "planned"
+   "status": "done",
+   "readers": "s01/005"
+  },
+  {
+   "stage": 1,
+   "story": "Hloupý Honza (serial)",
+   "status": "in progress",
+   "readers": "s01/006-008",
+   "note": "006 leaves home with buchty, shares with old man; 007 magic whistle makes everyone dance; 008 princess laughs, Honza wins. Continue with new Honza adventures (e.g. Honza as king's helper, Honza and the dragon/čert)."
+  },
+  {
+   "stage": 1,
+   "story": "Kohoutek a slepička",
+   "status": "next",
+   "note": "chain tale - simplify the chain to keep new words <=8"
   },
   {
    "stage": 1,
    "story": "Koza a kůzlátka",
-   "status": "planned"
-  },
-  {
-   "stage": 1,
-   "story": "Hloupý Honza (longer serial)",
    "status": "planned"
   },
   {
@@ -77,178 +81,188 @@
   "Novák",
   "Nováka",
   "Brna",
-  "Brno"
+  "Brno",
+  "Honza",
+  "Honzo",
+  "Honzovi",
+  "Honzu",
+  "hop"
  ],
  "episodes": [
   "s01/001 - Budulínek a liška.txt",
   "s01/002 - Zlatá hruška.txt",
-  "s01/003 - Liška a Budulínek.txt"
+  "s01/003 - Liška a Budulínek.txt",
+  "s01/004 - Dědeček hraje.txt",
+  "s01/005 - Velká řepa.txt",
+  "s01/006 - Hloupý Honza.txt",
+  "s01/007 - Kouzelná píšťalka.txt",
+  "s01/008 - Princezna se nesměje.txt"
  ],
  "words": {
   "dědeček": {
    "first_episode": "s01/001",
-   "total_uses": 26,
-   "recent_uses": 26,
+   "total_uses": 56,
+   "recent_uses": 30,
    "lingq_status": "new1",
    "needs_review": false
   },
   "hodný": {
    "first_episode": "s01/001",
-   "total_uses": 12,
-   "recent_uses": 12,
+   "total_uses": 17,
+   "recent_uses": 5,
    "lingq_status": "new1",
    "needs_review": false
   },
   "jablko": {
    "first_episode": "s01/001",
    "total_uses": 13,
-   "recent_uses": 13,
+   "recent_uses": 0,
    "lingq_status": "known",
    "needs_review": false
   },
   "jenom": {
    "first_episode": "s01/001",
-   "total_uses": 4,
-   "recent_uses": 4,
+   "total_uses": 9,
+   "recent_uses": 5,
    "lingq_status": "new1",
    "needs_review": true
   },
   "liška": {
    "first_episode": "s01/001",
-   "total_uses": 53,
-   "recent_uses": 53,
+   "total_uses": 72,
+   "recent_uses": 19,
    "lingq_status": "unknown",
    "needs_review": false
   },
   "neotvíra": {
    "first_episode": "s01/001",
-   "total_uses": 8,
-   "recent_uses": 8,
+   "total_uses": 9,
+   "recent_uses": 1,
    "lingq_status": "unknown",
    "needs_review": true
   },
   "neotvírej": {
    "first_episode": "s01/001",
    "total_uses": 16,
-   "recent_uses": 16,
+   "recent_uses": 0,
    "lingq_status": "unknown",
    "needs_review": false
   },
   "nikdo": {
    "first_episode": "s01/001",
-   "total_uses": 7,
-   "recent_uses": 7,
+   "total_uses": 12,
+   "recent_uses": 5,
    "lingq_status": "familiar",
    "needs_review": false
   },
   "někdo": {
    "first_episode": "s01/001",
-   "total_uses": 3,
-   "recent_uses": 3,
+   "total_uses": 4,
+   "recent_uses": 1,
    "lingq_status": "familiar",
    "needs_review": false
   },
   "otevřít": {
    "first_episode": "s01/001",
    "total_uses": 9,
-   "recent_uses": 9,
+   "recent_uses": 0,
    "lingq_status": "new1",
    "needs_review": true
   },
   "polévka": {
    "first_episode": "s01/001",
-   "total_uses": 10,
-   "recent_uses": 10,
+   "total_uses": 14,
+   "recent_uses": 4,
    "lingq_status": "known",
    "needs_review": false
   },
   "pryč": {
    "first_episode": "s01/001",
-   "total_uses": 4,
-   "recent_uses": 4,
+   "total_uses": 11,
+   "recent_uses": 7,
    "lingq_status": "familiar",
    "needs_review": false
   },
   "trocha": {
    "first_episode": "s01/001",
-   "total_uses": 8,
-   "recent_uses": 8,
+   "total_uses": 10,
+   "recent_uses": 2,
    "lingq_status": "new1",
    "needs_review": true
   },
   "zlatý": {
    "first_episode": "s01/001",
-   "total_uses": 18,
-   "recent_uses": 18,
+   "total_uses": 19,
+   "recent_uses": 1,
    "lingq_status": "familiar",
    "needs_review": false
   },
   "chléb": {
    "first_episode": "s01/002",
    "total_uses": 6,
-   "recent_uses": 6,
+   "recent_uses": 0,
    "lingq_status": "known",
    "needs_review": false
   },
   "hlad": {
    "first_episode": "s01/002",
-   "total_uses": 10,
-   "recent_uses": 10,
+   "total_uses": 16,
+   "recent_uses": 6,
    "lingq_status": "new1",
-   "needs_review": true
+   "needs_review": false
   },
   "hruška": {
    "first_episode": "s01/002",
    "total_uses": 12,
-   "recent_uses": 12,
+   "recent_uses": 0,
    "lingq_status": "new1",
    "needs_review": false
   },
   "kaše": {
    "first_episode": "s01/002",
-   "total_uses": 12,
-   "recent_uses": 12,
+   "total_uses": 14,
+   "recent_uses": 2,
    "lingq_status": "new1",
    "needs_review": false
   },
   "sedět": {
    "first_episode": "s01/002",
-   "total_uses": 1,
-   "recent_uses": 1,
+   "total_uses": 4,
+   "recent_uses": 3,
    "lingq_status": "new1",
    "needs_review": true
   },
   "běžet": {
    "first_episode": "s01/003",
    "total_uses": 5,
-   "recent_uses": 5,
+   "recent_uses": 0,
    "lingq_status": "new1",
    "needs_review": true
   },
   "díra": {
    "first_episode": "s01/003",
-   "total_uses": 5,
-   "recent_uses": 5,
+   "total_uses": 12,
+   "recent_uses": 7,
    "lingq_status": "new1",
-   "needs_review": true
+   "needs_review": false
   },
   "křičet": {
    "first_episode": "s01/003",
    "total_uses": 3,
-   "recent_uses": 3,
+   "recent_uses": 0,
    "lingq_status": "new1",
    "needs_review": true
   },
   "míč": {
    "first_episode": "s01/003",
    "total_uses": 5,
-   "recent_uses": 5,
+   "recent_uses": 0,
    "lingq_status": "new1",
    "needs_review": true
   },
   "neplač": {
    "first_episode": "s01/003",
-   "total_uses": 1,
+   "total_uses": 2,
    "recent_uses": 1,
    "lingq_status": "new1",
    "needs_review": true
@@ -256,33 +270,348 @@
   "odpovídat": {
    "first_episode": "s01/003",
    "total_uses": 1,
-   "recent_uses": 1,
+   "recent_uses": 0,
    "lingq_status": "familiar",
    "needs_review": false
   },
   "otevřený": {
    "first_episode": "s01/003",
    "total_uses": 1,
-   "recent_uses": 1,
+   "recent_uses": 0,
    "lingq_status": "new1",
    "needs_review": true
   },
   "pláč": {
    "first_episode": "s01/003",
-   "total_uses": 2,
-   "recent_uses": 2,
+   "total_uses": 6,
+   "recent_uses": 4,
    "lingq_status": "new1",
    "needs_review": true
   },
   "rychle": {
    "first_episode": "s01/003",
+   "total_uses": 8,
+   "recent_uses": 4,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "daleko": {
+   "first_episode": "s01/004",
    "total_uses": 4,
    "recent_uses": 4,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "housle": {
+   "first_episode": "s01/004",
+   "total_uses": 3,
+   "recent_uses": 3,
+   "lingq_status": "unknown",
+   "needs_review": true
+  },
+  "krásně": {
+   "first_episode": "s01/004",
+   "total_uses": 2,
+   "recent_uses": 2,
+   "lingq_status": "known",
+   "needs_review": false
+  },
+  "podívat": {
+   "first_episode": "s01/004",
+   "total_uses": 3,
+   "recent_uses": 3,
+   "lingq_status": "familiar",
+   "needs_review": false
+  },
+  "poslouchat": {
+   "first_episode": "s01/004",
+   "total_uses": 4,
+   "recent_uses": 4,
+   "lingq_status": "familiar",
+   "needs_review": false
+  },
+  "pytel": {
+   "first_episode": "s01/004",
+   "total_uses": 9,
+   "recent_uses": 9,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "přijít": {
+   "first_episode": "s01/004",
+   "total_uses": 3,
+   "recent_uses": 3,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "tam": {
+   "first_episode": "s01/004",
+   "total_uses": 4,
+   "recent_uses": 4,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "ven": {
+   "first_episode": "s01/004",
+   "total_uses": 14,
+   "recent_uses": 14,
+   "lingq_status": "familiar",
+   "needs_review": false
+  },
+  "čekat": {
+   "first_episode": "s01/004",
+   "total_uses": 5,
+   "recent_uses": 5,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "čtvrtý": {
+   "first_episode": "s01/004",
+   "total_uses": 1,
+   "recent_uses": 1,
+   "lingq_status": "known",
+   "needs_review": false
+  },
+  "bez": {
+   "first_episode": "s01/005",
+   "total_uses": 3,
+   "recent_uses": 3,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "myška": {
+   "first_episode": "s01/005",
+   "total_uses": 11,
+   "recent_uses": 11,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "pejsek": {
+   "first_episode": "s01/005",
+   "total_uses": 10,
+   "recent_uses": 10,
+   "lingq_status": "known",
+   "needs_review": false
+  },
+  "sem": {
+   "first_episode": "s01/005",
+   "total_uses": 5,
+   "recent_uses": 5,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "táhnout": {
+   "first_episode": "s01/005",
+   "total_uses": 33,
+   "recent_uses": 33,
+   "lingq_status": "new1",
+   "needs_review": false
+  },
+  "vnučka": {
+   "first_episode": "s01/005",
+   "total_uses": 12,
+   "recent_uses": 12,
+   "lingq_status": "new1",
+   "needs_review": false
+  },
+  "volat": {
+   "first_episode": "s01/005",
+   "total_uses": 6,
+   "recent_uses": 6,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "zahrada": {
+   "first_episode": "s01/005",
+   "total_uses": 8,
+   "recent_uses": 8,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "řepa": {
+   "first_episode": "s01/005",
+   "total_uses": 19,
+   "recent_uses": 19,
+   "lingq_status": "new1",
+   "needs_review": false
+  },
+  "buchta": {
+   "first_episode": "s01/006",
+   "total_uses": 12,
+   "recent_uses": 12,
+   "lingq_status": "new1",
+   "needs_review": false
+  },
+  "dívat": {
+   "first_episode": "s01/006",
+   "total_uses": 11,
+   "recent_uses": 11,
+   "lingq_status": "familiar",
+   "needs_review": false
+  },
+  "kam": {
+   "first_episode": "s01/006",
+   "total_uses": 3,
+   "recent_uses": 3,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "ležet": {
+   "first_episode": "s01/006",
+   "total_uses": 4,
+   "recent_uses": 4,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "pec": {
+   "first_episode": "s01/006",
+   "total_uses": 7,
+   "recent_uses": 7,
+   "lingq_status": "unknown",
+   "needs_review": true
+  },
+  "ptát": {
+   "first_episode": "s01/006",
+   "total_uses": 1,
+   "recent_uses": 1,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "taška": {
+   "first_episode": "s01/006",
+   "total_uses": 5,
+   "recent_uses": 5,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "teplo": {
+   "first_episode": "s01/006",
+   "total_uses": 2,
+   "recent_uses": 2,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "teplý": {
+   "first_episode": "s01/006",
+   "total_uses": 2,
+   "recent_uses": 2,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "vesnice": {
+   "first_episode": "s01/006",
+   "total_uses": 5,
+   "recent_uses": 5,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "grrr": {
+   "first_episode": "s01/007",
+   "total_uses": 1,
+   "recent_uses": 1,
+   "lingq_status": "unknown",
+   "needs_review": true
+  },
+  "kouzelný": {
+   "first_episode": "s01/007",
+   "total_uses": 4,
+   "recent_uses": 4,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "království": {
+   "first_episode": "s01/007",
+   "total_uses": 4,
+   "recent_uses": 4,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "nesměje": {
+   "first_episode": "s01/007",
+   "total_uses": 6,
+   "recent_uses": 6,
+   "lingq_status": "unknown",
+   "needs_review": true
+  },
+  "netancuje": {
+   "first_episode": "s01/007",
+   "total_uses": 1,
+   "recent_uses": 1,
+   "lingq_status": "unknown",
+   "needs_review": true
+  },
+  "píšťalka": {
+   "first_episode": "s01/007",
+   "total_uses": 3,
+   "recent_uses": 3,
+   "lingq_status": "unknown",
+   "needs_review": true
+  },
+  "píšťalku": {
+   "first_episode": "s01/007",
+   "total_uses": 5,
+   "recent_uses": 5,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "smát": {
+   "first_episode": "s01/007",
+   "total_uses": 15,
+   "recent_uses": 15,
+   "lingq_status": "new1",
+   "needs_review": false
+  },
+  "tancovat": {
+   "first_episode": "s01/007",
+   "total_uses": 19,
+   "recent_uses": 19,
+   "lingq_status": "known",
+   "needs_review": false
+  },
+  "kuchař": {
+   "first_episode": "s01/008",
+   "total_uses": 2,
+   "recent_uses": 2,
+   "lingq_status": "known",
+   "needs_review": false
+  },
+  "padat": {
+   "first_episode": "s01/008",
+   "total_uses": 2,
+   "recent_uses": 2,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "smět": {
+   "first_episode": "s01/008",
+   "total_uses": 2,
+   "recent_uses": 2,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "vzít": {
+   "first_episode": "s01/008",
+   "total_uses": 1,
+   "recent_uses": 1,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "zpívat": {
+   "first_episode": "s01/008",
+   "total_uses": 2,
+   "recent_uses": 2,
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "zámek": {
+   "first_episode": "s01/008",
+   "total_uses": 3,
+   "recent_uses": 3,
    "lingq_status": "new1",
    "needs_review": true
   }
  },
  "readers_per_stage": {
-  "s01": 3
+  "s01": 8
  }
 }
