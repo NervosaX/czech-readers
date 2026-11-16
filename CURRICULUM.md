@@ -27,6 +27,17 @@ Stage N:   introduce ─▶ saturate ──────────────�
   3. The minimum reader count for the stage is reached.
   If the gate fails, keep reading at this stage. More plateau is never a problem.
 
+**Twin readers for each new form.** Adam's vocabulary is ahead of his grammar
+(placement 2026-11-16: he knows the words but endings don't register instantly). So
+the Introduce phase of every stage opens with *twins*: a short story he already
+knows from the previous stage, retold with only the new form changed (e.g. a Stage 1
+reader in present tense → the same reader in past tense). The plot is known, so all
+attention goes to the change. Then lots of new readers before anything else is added.
+
+**Optional grammar hint.** The first ~5 readers of a stage may start with one line of
+English naming the new pattern (e.g. "-l / -la / -li = past tense: dělá → dělal").
+No tables, no explanations beyond one line. (Drop this if Adam says he doesn't want it.)
+
 **Nothing is ever dropped.** Every stage's grammar and vocabulary stay in use in every
 later stage. A reader in Stage 9 is still full of Stage 1-8 material; only ~5% of
 it is new.
