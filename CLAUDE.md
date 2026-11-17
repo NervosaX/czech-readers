@@ -32,7 +32,8 @@ actual LingQ vocabulary, getting closer to the originals over time.
    `/api/v2/cs/lesson-stats/<id>/`) - 'sticky' = words in READ readers still at
    LingQ 1-3: give them extra repetitions. Details in the script docstring.
 2. (`pip install --break-system-packages simplemma` first if missing - sync.py needs it.)
-3. Read `ledger.json` (difficulty notes, grammar stage, roadmap, needs_review words).
+3. Read `ledger.json` (difficulty notes, grammar stage, roadmap, needs_review words,
+   `open_items` - pick up anything pending there first).
 4. Run `python3 scripts/targets.py 80` and plan the batch around those words. Write ~5-10 readers. Check each with `python3 scripts/check.py "episodes/sNN/NNN - ....txt"`,
    revise until it meets the targets. Add character names to `ignore_tokens`.
 5. `python3 scripts/update_ledger.py`; update roadmap/grammar notes; commit + push.

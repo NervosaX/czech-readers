@@ -1264,5 +1264,10 @@
   "zbraň",
   "zlato",
   "řeknout"
+ ],
+ "open_items": [
+  "Next batch: start the Josef Čapek 'Povídání o pejskovi a kočičce' thread (see roadmap) alongside folk tales; build it from scripts/targets.py and the sticky words from the last sync.",
+  "Optional writing practice: Adam may send 2-3 Czech sentences after a reader (often without diacritics - that's fine). Correct gently, restore háčky/čárky, and feed his errors into the next readers.",
+  "Explain grammar briefly and concretely when asked (he asked about vocative Liško/Míšo, jdou paradigm) - short tables OK, no drills."
  ]
 }
