@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["simplemma"]
+# ///
 """Check an episode's vocabulary against Adam's LingQ data and the course ledger.
 
 Usage: python3 scripts/check.py "episodes/s01/004 - ....txt"

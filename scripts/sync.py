@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["simplemma"]
+# ///
 """One-shot LingQ sync: apply a delta, rebuild vocab, update ledger, commit, summarise.
 
 Usage:  python3 scripts/sync.py < /tmp/delta.txt      (or: python3 scripts/sync.py delta.txt)

@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["simplemma"]
+# ///
 """Apply a LingQ delta (from make_sync_js.py) to data/lingq/*.json and ledger.json.
 
 Usage: python3 scripts/apply_delta.py /tmp/delta.txt

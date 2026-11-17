@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["simplemma"]
+# ///
 """Rebuild word-exposure counts in ledger.json from every episode file.
 
 Usage: python3 scripts/update_ledger.py

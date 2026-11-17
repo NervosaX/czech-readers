@@ -49,6 +49,10 @@ actual LingQ vocabulary, getting closer to the originals over time.
    test fragment - upload the real episode. Fallback: hand Adam the files for Bulk Import.
 7. Ask Adam how the batch felt; record his answer in `ledger.levels.notes`.
 
+## Local tooling
+Adam uses **uv**: scripts carry inline dependency headers, so locally prefer
+`uv run scripts/<name>.py` (no pip installs needed).
+
 ## Keeping docs lean
 - `CURRICULUM.md` and `CLAUDE.md` are the plan and the method: no progress logs, word
   lists or per-batch notes in them.

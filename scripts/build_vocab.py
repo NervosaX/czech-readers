@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["simplemma"]
+# ///
 import json, simplemma, collections, sys
 L=lambda w: simplemma.lemmatize(w.lower(),lang='cs')
 known=[w['word'].lower() for w in json.load(open(sys.argv[1]))]
