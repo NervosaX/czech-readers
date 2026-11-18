@@ -18,6 +18,9 @@ actual LingQ vocabulary, getting closer to the originals over time.
 - Run 2-3 story threads at once (a short folk tale + a longer Čapek thread) for variety.
 - Readers live in `episodes/sNN/NNN - Title.txt` (stage folder, 3-digit number within
   the stage), title on line 1. No "(1)" in titles. Length grows by stage (see CURRICULUM).
+- Dialogue: Czech quotation marks „…“ (never a straight " to close). Write dialogue the
+  natural way; don't restructure sentences just to suit LingQ's sentence splitter
+  (it splits after ?/! inside quotes - Adam accepts that).
 - Adam's messages are concise; give him trade-offs, not specs.
 - Stories should get richer as he improves: longer, more complex sentences, more
   literary texture - not just more vocabulary.
