@@ -57,21 +57,62 @@
    "s01": 2972731
   },
   "course_url_s01": "https://www.lingq.com/en/learn/cs/web/library/course/2972731",
-  "last_sync": "2026-11-16",
+  "last_sync": "2026-11-19",
   "title_format": "NNN Title (number within stage)",
-  "last_sync_utc": "2026-11-16T22:02:06",
-  "max_card_pk": 870162969,
-  "looked_up_last_sync": [],
+  "last_sync_utc": "2026-11-19T02:13:03",
+  "max_card_pk": 870771664,
+  "looked_up_last_sync": [
+   "kikiriki",
+   "nespí",
+   "hodné",
+   "zahrado",
+   "květinu",
+   "nečeká",
+   "kohoutku",
+   "kuchaře",
+   "polévkou",
+   "kartami",
+   "dívá se",
+   "chlapi",
+   "měřítko",
+   "herní",
+   "netancuje",
+   "tancují",
+   "nesměje",
+   "píšťalka",
+   "tašce",
+   "tašky",
+   "buchet",
+   "maminko",
+   "teplá",
+   "pec",
+   "peci",
+   "řepy",
+   "myška",
+   "myško",
+   "kočko",
+   "vnučko",
+   "táhnou"
+  ],
   "sticky_in_read_lessons": [
+   "Studánka",
    "bez",
+   "buchta",
    "běžet",
+   "cesta",
+   "chlap",
    "daleko",
+   "dost",
    "druhý",
    "dát",
    "díra",
+   "dívat",
+   "dělat",
+   "hezký",
    "hlad",
    "hloupý",
    "hodný",
+   "hodně",
    "hop",
    "housle",
    "hruška",
@@ -81,49 +122,101 @@
    "jídlo",
    "jíst",
    "jít",
+   "kam",
+   "karta",
    "kaše",
+   "kikiriki",
+   "kohout",
+   "kohoutek",
+   "kouzelný",
+   "kouzlo",
    "kočka",
+   "král",
+   "království",
+   "kráva",
+   "kuchař",
+   "květina",
    "křičet",
    "lepšit",
+   "ležet",
    "liška",
+   "maminka",
    "myška",
    "mít",
    "míč",
+   "najít",
+   "nejíme",
    "neotvíra",
    "neotvírej",
    "neplač",
+   "nesměje",
+   "netancuje",
    "nikdo",
    "někdo",
    "odpovídat",
+   "on",
+   "opravdu",
    "otevřený",
    "otevřít",
+   "ořech",
+   "padat",
+   "pec",
    "pláč",
    "podívat",
    "polévka",
    "pomoci",
    "poslouchat",
    "potom",
+   "princ",
    "pryč",
+   "ptát",
    "pytel",
+   "pán",
+   "píšťalka",
+   "píšťalku",
    "přijít",
+   "půl",
    "rozumět",
    "rychle",
    "rád",
    "samý",
    "sedět",
    "sem",
+   "slepička",
+   "smát",
+   "smět",
+   "spolu",
+   "spát",
+   "strom",
+   "studna",
+   "studánko",
+   "svět",
    "tam",
+   "tancovat",
+   "taška",
+   "teplo",
+   "teplý",
    "trocha",
    "tvůj",
+   "ty",
    "táhnout",
    "třetí",
    "ven",
    "venku",
+   "vesnice",
+   "vlas",
    "vnučka",
    "volat",
+   "vzít",
    "vědět",
+   "vždycky",
    "zahrada",
+   "zase",
+   "začínat",
+   "země",
    "zlatý",
+   "zpívat",
+   "zámek",
    "zítra",
    "čekat",
    "čtvrtý",
@@ -148,24 +241,24 @@
     "lookups": 4
    },
    "005": {
-    "read_times": 0.2,
-    "lookups": 2
+    "read_times": 1.0,
+    "lookups": 8
    },
    "006": {
-    "read_times": 0.0,
-    "lookups": 0
+    "read_times": 1.0,
+    "lookups": 7
    },
    "007": {
-    "read_times": 0.0,
-    "lookups": 0
+    "read_times": 1.0,
+    "lookups": 4
    },
    "008": {
-    "read_times": 0.0,
-    "lookups": 0
+    "read_times": 1.0,
+    "lookups": 5
    },
    "009": {
-    "read_times": 0.0,
-    "lookups": 0
+    "read_times": 1.0,
+    "lookups": 7
    },
    "010": {
     "read_times": 0.0,
@@ -388,6 +481,13 @@
    "lingq_status": "new1",
    "needs_review": true
   },
+  "zase": {
+   "first_episode": "s01/002",
+   "total_uses": 13,
+   "recent_uses": 1,
+   "lingq_status": "familiar",
+   "needs_review": false
+  },
   "zítra": {
    "first_episode": "s01/002",
    "total_uses": 6,
@@ -528,6 +628,13 @@
    "lingq_status": "familiar",
    "needs_review": false
   },
+  "začínat": {
+   "first_episode": "s01/004",
+   "total_uses": 5,
+   "recent_uses": 2,
+   "lingq_status": "familiar",
+   "needs_review": false
+  },
   "čekat": {
    "first_episode": "s01/004",
    "total_uses": 8,
@@ -548,6 +655,13 @@
    "recent_uses": 2,
    "lingq_status": "new1",
    "needs_review": true
+  },
+  "hodně": {
+   "first_episode": "s01/005",
+   "total_uses": 9,
+   "recent_uses": 2,
+   "lingq_status": "familiar",
+   "needs_review": false
   },
   "myška": {
    "first_episode": "s01/005",
@@ -619,6 +733,13 @@
    "lingq_status": "new1",
    "needs_review": false
   },
+  "dost": {
+   "first_episode": "s01/006",
+   "total_uses": 1,
+   "recent_uses": 0,
+   "lingq_status": "familiar",
+   "needs_review": false
+  },
   "dívat": {
    "first_episode": "s01/006",
    "total_uses": 30,
@@ -644,7 +765,7 @@
    "first_episode": "s01/006",
    "total_uses": 48,
    "recent_uses": 41,
-   "lingq_status": "unknown",
+   "lingq_status": "new1",
    "needs_review": false
   },
   "ptát": {
@@ -682,6 +803,13 @@
    "lingq_status": "new1",
    "needs_review": false
   },
+  "vlas": {
+   "first_episode": "s01/006",
+   "total_uses": 1,
+   "recent_uses": 0,
+   "lingq_status": "familiar",
+   "needs_review": false
+  },
   "kouzelný": {
    "first_episode": "s01/007",
    "total_uses": 4,
@@ -700,21 +828,28 @@
    "first_episode": "s01/007",
    "total_uses": 7,
    "recent_uses": 1,
-   "lingq_status": "unknown",
+   "lingq_status": "new1",
    "needs_review": true
   },
   "netancuje": {
    "first_episode": "s01/007",
    "total_uses": 1,
    "recent_uses": 0,
-   "lingq_status": "unknown",
+   "lingq_status": "new1",
+   "needs_review": true
+  },
+  "opravdu": {
+   "first_episode": "s01/007",
+   "total_uses": 5,
+   "recent_uses": 2,
+   "lingq_status": "new1",
    "needs_review": true
   },
   "píšťalka": {
    "first_episode": "s01/007",
    "total_uses": 3,
    "recent_uses": 0,
-   "lingq_status": "unknown",
+   "lingq_status": "new1",
    "needs_review": true
   },
   "píšťalku": {
@@ -723,6 +858,13 @@
    "recent_uses": 4,
    "lingq_status": "new1",
    "needs_review": true
+  },
+  "půl": {
+   "first_episode": "s01/007",
+   "total_uses": 6,
+   "recent_uses": 2,
+   "lingq_status": "familiar",
+   "needs_review": false
   },
   "smát": {
    "first_episode": "s01/007",
