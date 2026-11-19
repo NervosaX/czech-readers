@@ -21,6 +21,9 @@ actual LingQ vocabulary, getting closer to the originals over time.
 - Dialogue: Czech quotation marks „…“ (never a straight " to close). Write dialogue the
   natural way; don't restructure sentences just to suit LingQ's sentence splitter
   (it splits after ?/! inside quotes - Adam accepts that).
+- Keep the folk tales' original darkness (wolves drowned, foxes beaten, etc.) when it's in
+  the source and the vocabulary is easy - it's part of the culture. Don't add gore that
+  isn't in the original, and don't soften it.
 - Adam's messages are concise; give him trade-offs, not specs.
 - Stories should get richer as he improves: longer, more complex sentences, more
   literary texture - not just more vocabulary.
