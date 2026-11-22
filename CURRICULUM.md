@@ -129,8 +129,8 @@ To keep hundreds of readers on one plateau from going stale, rotate:
 ## Repo layout for stages
 
 - `episodes/s01/`, `episodes/s02/`, … one folder per stage, numbered 001-999 inside.
-- One LingQ course per stage (Stage 1 = course 2972731, "Graded Readers (AI)").
-  Create the next stage's course when its first reader is ready.
+- One LingQ course for everything ("Graded Readers (AI)", 2972731), numbered straight
+  through; stages only exist in the repo's folders.
 - `ledger.json → current_stage` and `readers_per_stage` track where we are;
   `levels.notes` records Adam's feedback and every gate decision.
 

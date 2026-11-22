@@ -26,7 +26,7 @@ import json, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 L = json.load(open(os.path.join(ROOT, 'ledger.json'), encoding='utf8'))['lingq']
 max_pk = L.get('max_card_pk', 0)
-courses = list(L.get('courses', {}).values())
+courses = sorted(set(L.get('courses', {}).values()))
 print(f"""(async()=>{{
 const MAXPK={max_pk}, COURSES={json.dumps(courses)};
 const get=u=>fetch(u,{{credentials:'include'}}).then(r=>r.json());

@@ -65,12 +65,11 @@
  ],
  "lingq": {
   "courses": {
-   "s01": 2972731,
-   "s02": 2979707
+   "all": 2972731
   },
   "course_url_s01": "https://www.lingq.com/en/learn/cs/web/library/course/2972731",
   "last_sync": "2026-11-22",
-  "title_format": "NNN Title (number within stage)",
+  "title_format": "NNN Title, one running number across all stages (s01/001-016 = 001-016, s02/001 = 017, ...). Repo keeps stage folders.",
   "last_sync_utc": "2026-11-22T22:10:43",
   "max_card_pk": 871852427,
   "looked_up_last_sync": [
@@ -368,8 +367,7 @@
     "read_times": 1.0,
     "lookups": 5
    }
-  },
-  "course_url_s02": "https://www.lingq.com/en/learn/cs/web/library/course/2979707"
+  }
  },
  "ignore_tokens": [
   "Budulínek",

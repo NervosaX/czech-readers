@@ -52,14 +52,15 @@ actual LingQ vocabulary, getting closer to the originals over time.
 4. Run `python3 scripts/targets.py 80` and plan the batch around those words. Write ~5-10 readers. Check each with `python3 scripts/check.py "episodes/sNN/NNN - ....txt"`,
    revise until it meets the targets. Add character names to `ignore_tokens`.
 5. `python3 scripts/update_ledger.py`; update roadmap/grammar notes; commit + push.
-6. Upload to the stage's LingQ course (`ledger.lingq.courses`; s01 = 2972731, s02 = 2979707)
-   via Chrome. New stage -> create its course: POST /api/v3/cs/collections/ with JSON
-   {title, description} and the CSRF header (201 -> id); record it in ledger.lingq.courses. Delete a lesson: DELETE /api/v3/cs/lessons/<id>/
+6. Upload to the ONE LingQ course, "Graded Readers (AI)" (2972731), for all stages, via
+   Chrome. LingQ titles use a running number across stages (s01/001-016 = 001-016,
+   s02/001 = 017, ...): next number = lesson count in the course + 1. Move/rename a lesson:
+   PATCH /api/v3/cs/lessons/<id>/ JSON {title, collection} (keeps progress). Delete a lesson: DELETE /api/v3/cs/lessons/<id>/
    with the same CSRF header (only with Adam's OK). Working method (2026-11-16): in a tab on lingq.com, run JS:
    `fetch('/api/v3/cs/lessons/import/', {method:'POST', credentials:'include',
    headers:{'X-CSRFToken': <csrftoken cookie>}, body: FormData{title, text,
    collection: 2972731, status:'private', save:'true'}})` → 201 with lesson id.
-   Title format: `NNN Title` (e.g. "002 Zlatá hruška"); text = file minus title line.
+   Title format: `NNN Title` with the running number; text = file minus title line.
    v2 /lessons/ is dead ("API is obsolete"). Check the course list first
    (`/api/v3/cs/collections/2972731/lessons/`) to avoid duplicates. Never upload a
    test fragment - upload the real episode. Fallback: hand Adam the files for Bulk Import.
