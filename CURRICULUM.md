@@ -49,6 +49,24 @@ it is new.
 - closeness to the source text: from simplified retelling → abridged
   original → the original
 
+## Three dials for sophistication
+
+Readers should feel less "simple" over time without getting harder to understand.
+Vocabulary is only one of three dials; turn each a notch at a time, never all at once
+in the same reader:
+
+1. **Words** - new lemmas from the frequency band (see per-reader rules). Steady.
+2. **Sentences** - join short sentences with connectors Adam already knows
+   (a, ale, protože, když, potom, tak, že, který) into longer ones; vary openings and
+   word order; fewer three-word sentences each batch. Known words, more structure.
+3. **Storytelling** - description, inner thoughts, humour and irony, characters with
+   distinct voices, pacing and suspense, a narrator with personality. Costs almost no
+   new vocabulary and does the most to make a reader feel grown-up.
+
+Grammar is not a separate track: a new form arrives inside stories (with a one-line
+hint at most), is used constantly, and the stage gate checks that it has become
+automatic. The dials are what move continuously; grammar steps are occasional.
+
 ## Stages
 
 Minimum reader counts are a floor, not a target; the gate decides.

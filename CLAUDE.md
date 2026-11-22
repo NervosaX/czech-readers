@@ -24,6 +24,8 @@ actual LingQ vocabulary, getting closer to the originals over time.
 - Keep the folk tales' original darkness (wolves drowned, foxes beaten, etc.) when it's in
   the source and the vocabulary is easy - it's part of the culture. Don't add gore that
   isn't in the original, and don't soften it.
+- Doubling for effect ("jí a jí", "spí a spí", "rychle, rychle") only where the original
+  tale has it or for real emphasis - at most once in a reader, not as a habit.
 - Adam's messages are concise; give him trade-offs, not specs.
 - Stories should get richer as he improves: longer, more complex sentences, more
   literary texture - not just more vocabulary.
