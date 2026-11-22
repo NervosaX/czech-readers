@@ -63,20 +63,10 @@ in the same reader:
    distinct voices, pacing and suspense, a narrator with personality. Costs almost no
    new vocabulary and does the most to make a reader feel grown-up.
 
-## Why it is built this way (research basis)
+## Why it is built this way
 
-- **Coverage:** 95% known words gives minimal comprehension, 98% comfortable reading
-  (Hu & Nation 2000; Laufer & Ravenhorst-Kalovski 2010) - hence the coverage rule.
-- **Repetition:** words from reading are learned reliably after ~7-10 encounters, with
-  gains flattening after ~20 (Uchihara et al. 2019) - hence recycling across readers,
-  serials and retellings rather than one-off words.
-- **Volume:** each single encounter teaches little (incidental gains ~15% per study, Webb
-  et al. 2023), so large amounts of easy reading matter more than any one reader.
-- **Grammar:** explicit attention plus lots of input beats input alone (Norris & Ortega
-  2000; Spada & Tomita 2010) - hence a short explicit note when a form is introduced,
-  then hundreds of examples in stories. No drills.
-- **Varied contexts and narrow reading:** the same words in different stories, and long
-  serials about the same characters, recycle vocabulary naturally.
+See `RESEARCH.md` for the evidence (coverage, repetition, compelling and narrow
+reading, explicit grammar plus input) and the per-batch checklist.
 
 Grammar is not a separate track: a new form arrives inside stories (with a one-line
 hint at most), is used constantly, and the stage gate checks that it has become

@@ -5,6 +5,9 @@ course: simplified retellings of public-domain Czech stories, written against hi
 actual LingQ vocabulary, getting closer to the originals over time.
 
 ## Principles
+- **`RESEARCH.md` is the evidence base.** Every batch must pass its checklist (section 6):
+  compelling stories, Adam chooses what's next, 95-98% coverage, 10-20 encounters per
+  new word, one-line grammar notes, low pressure.
 - **Coverage: >=95% of tokens core / taught / half-known, aiming for ~98%** (`scripts/check.py`).
   Research: 95% = minimal comprehension, 98% = comfortable reading (Laufer & Ravenhorst-
   Kalovski 2010; Hu & Nation 2000). So 'new' tokens <=5% of a reader.
@@ -59,7 +62,8 @@ actual LingQ vocabulary, getting closer to the originals over time.
    v2 /lessons/ is dead ("API is obsolete"). Check the course list first
    (`/api/v3/cs/collections/2972731/lessons/`) to avoid duplicates. Never upload a
    test fragment - upload the real episode. Fallback: hand Adam the files for Bulk Import.
-7. Ask Adam how the batch felt; record his answer in `ledger.levels.notes`.
+7. Ask Adam how the batch felt; record his answer in `ledger.levels.notes`. Offer him 2-3
+   options for the next story or thread (self-selected reading, RESEARCH.md section 1).
 
 ## Local tooling
 Adam uses **uv**: scripts carry inline dependency headers, so locally prefer
@@ -74,6 +78,7 @@ Adam uses **uv**: scripts carry inline dependency headers, so locally prefer
   ones once they're in `episodes/`.
 
 ## Files
+- `RESEARCH.md` — the evidence behind the method, with sources and a per-batch checklist
 - `CURRICULUM.md` — stages, phases, gates, story sources
 - `episodes/sNN/` — the readers, one folder per stage
 - `ledger.json` — course state: current stage/phase, notes, roadmap, word exposure
