@@ -18,15 +18,17 @@
    "2026-11-17: s01/005 (cumulative tale) 'interesting' - mostly familiar words, some new; Adam can follow despite not knowing the grammar, can't produce it. Comprehension ahead of production, as intended; cumulative/repetitive tales work.",
    "2026-11-18: Style - for things belonging to a person use the possessive adjective (Králův pes, Honzův, babiččin), not the genitive (pes krále sounds bookish). Genitive is fine for things (střecha domu). s01/008 left as is at Adam's request.",
    "2026-11-19: Adam liked Kohoutek a slepička (s01/009): 'good amount of repetition and new concepts'. Cumulative chain tales with a repeated refrain work well - do more like it.",
-   "2026-11-19: Adam liked Koza a kůzlátka (s01/010-011) too. Wants the tales' original darkness kept (see CLAUDE.md principle)."
+   "2026-11-19: Adam liked Koza a kůzlátka (s01/010-011) too. Wants the tales' original darkness kept (see CLAUDE.md principle).",
+   "2026-11-23 GATE DECISION: Adam asked to be progressed by the research. Present tense reads fine, so start Stage 2 (past tense) now via twin readers + a one-line explicit hint, keeping vocabulary flowing. Coverage target raised to >=95% (aim 98%). Doubling ('jí a jí') only for emphasis. Sophistication via the three dials in CURRICULUM."
   ]
  },
  "current_stage": {
-  "stage": 1,
-  "name": "Present tense",
+  "stage": 2,
+  "name": "Past tense",
   "phase": "introduce",
   "see": "CURRICULUM.md",
-  "focus": "Vocabulary automaticity on core/half words; present tense already OK."
+  "since": "2026-11-23",
+  "note": "Stage 1 readers s01/001-016 stay; Stage 1 vocabulary building continues inside Stage 2."
  },
  "roadmap": [
   {

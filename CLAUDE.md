@@ -5,9 +5,13 @@ course: simplified retellings of public-domain Czech stories, written against hi
 actual LingQ vocabulary, getting closer to the originals over time.
 
 ## Principles
-- ~90%+ of tokens must be core / taught / half-known (`scripts/check.py`).
-- 5-8 genuinely new lemmas per episode; each new word used 3+ times in its episode
-  and recycled in the next few. `needs_review` words in ledger.json get extra uses.
+- **Coverage: >=95% of tokens core / taught / half-known, aiming for ~98%** (`scripts/check.py`).
+  Research: 95% = minimal comprehension, 98% = comfortable reading (Laufer & Ravenhorst-
+  Kalovski 2010; Hu & Nation 2000). So 'new' tokens <=5% of a reader.
+- New lemmas per reader: see CURRICULUM (8-10 in Stage 1, mostly top-2000). Each new word
+  3-5 uses in its first reader, then recycled to **~10-20 total encounters spread over the
+  next ~10 readers** in varied contexts (words are reliably learned after ~7-10 encounters;
+  gains flatten after ~20). `needs_review` words in ledger.json get those extra uses.
 - LingQ status 1-2 = NEW (he looked it up once; it did not stick). Status 3 = half.
   Status 4 / known (API status 3) = known.
 - **`CURRICULUM.md` is the plan.** Follow its stages, phases (introduce → saturate →

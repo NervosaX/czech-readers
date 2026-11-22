@@ -63,6 +63,21 @@ in the same reader:
    distinct voices, pacing and suspense, a narrator with personality. Costs almost no
    new vocabulary and does the most to make a reader feel grown-up.
 
+## Why it is built this way (research basis)
+
+- **Coverage:** 95% known words gives minimal comprehension, 98% comfortable reading
+  (Hu & Nation 2000; Laufer & Ravenhorst-Kalovski 2010) - hence the coverage rule.
+- **Repetition:** words from reading are learned reliably after ~7-10 encounters, with
+  gains flattening after ~20 (Uchihara et al. 2019) - hence recycling across readers,
+  serials and retellings rather than one-off words.
+- **Volume:** each single encounter teaches little (incidental gains ~15% per study, Webb
+  et al. 2023), so large amounts of easy reading matter more than any one reader.
+- **Grammar:** explicit attention plus lots of input beats input alone (Norris & Ortega
+  2000; Spada & Tomita 2010) - hence a short explicit note when a form is introduced,
+  then hundreds of examples in stories. No drills.
+- **Varied contexts and narrow reading:** the same words in different stories, and long
+  serials about the same characters, recycle vocabulary naturally.
+
 Grammar is not a separate track: a new form arrives inside stories (with a one-line
 hint at most), is used constantly, and the stage gate checks that it has become
 automatic. The dials are what move continuously; grammar steps are occasional.
@@ -109,8 +124,8 @@ To keep hundreds of readers on one plateau from going stale, rotate:
 
 ## Per-reader rules (all stages)
 
-- ≥90% of tokens are core / taught / half-known (`scripts/check.py`); in the
-  Introduce phase aim for ≥95%.
+- ≥95% of tokens are core / taught / half-known (`scripts/check.py`), aiming for ~98%;
+  in the Introduce phase of a new grammar stage aim for ≥98%.
 - 5-8 genuinely new lemmas per reader (3-5 in the Introduce phase - vocabulary never
   stops), each used 3+ times.
 - **New words come from the frequency list** (`scripts/targets.py`), not from whatever
