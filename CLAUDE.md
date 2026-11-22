@@ -27,7 +27,7 @@ actual LingQ vocabulary, getting closer to the originals over time.
   the stage), title on line 1. No "(1)" in titles. Length grows by stage (see CURRICULUM).
 - Dialogue: Czech quotation marks „…“ (never a straight " to close). Write dialogue the
   natural way; don't restructure sentences just to suit LingQ's sentence splitter
-  (it splits after ?/! inside quotes - Adam accepts that).
+  (with proper „…“ quotes LingQ keeps „…?“ řekl X. together - checked 2026-11-23).
 - Keep the folk tales' original darkness (wolves drowned, foxes beaten, etc.) when it's in
   the source and the vocabulary is easy - it's part of the culture. Don't add gore that
   isn't in the original, and don't soften it.
@@ -52,8 +52,9 @@ actual LingQ vocabulary, getting closer to the originals over time.
 4. Run `python3 scripts/targets.py 80` and plan the batch around those words. Write ~5-10 readers. Check each with `python3 scripts/check.py "episodes/sNN/NNN - ....txt"`,
    revise until it meets the targets. Add character names to `ignore_tokens`.
 5. `python3 scripts/update_ledger.py`; update roadmap/grammar notes; commit + push.
-6. Upload to the stage's LingQ course (`ledger.lingq.courses`; Stage 1 = 2972731,
-   "Graded Readers (AI)") via Chrome. Delete a lesson: DELETE /api/v3/cs/lessons/<id>/
+6. Upload to the stage's LingQ course (`ledger.lingq.courses`; s01 = 2972731, s02 = 2979707)
+   via Chrome. New stage -> create its course: POST /api/v3/cs/collections/ with JSON
+   {title, description} and the CSRF header (201 -> id); record it in ledger.lingq.courses. Delete a lesson: DELETE /api/v3/cs/lessons/<id>/
    with the same CSRF header (only with Adam's OK). Working method (2026-11-16): in a tab on lingq.com, run JS:
    `fetch('/api/v3/cs/lessons/import/', {method:'POST', credentials:'include',
    headers:{'X-CSRFToken': <csrftoken cookie>}, body: FormData{title, text,

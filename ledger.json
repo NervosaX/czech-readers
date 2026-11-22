@@ -65,7 +65,8 @@
  ],
  "lingq": {
   "courses": {
-   "s01": 2972731
+   "s01": 2972731,
+   "s02": 2979707
   },
   "course_url_s01": "https://www.lingq.com/en/learn/cs/web/library/course/2972731",
   "last_sync": "2026-11-22",
@@ -367,7 +368,8 @@
     "read_times": 1.0,
     "lookups": 5
    }
-  }
+  },
+  "course_url_s02": "https://www.lingq.com/en/learn/cs/web/library/course/2979707"
  },
  "ignore_tokens": [
   "Budulínek",
