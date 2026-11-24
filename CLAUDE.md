@@ -69,8 +69,11 @@ actual LingQ vocabulary, getting closer to the originals over time.
    `anki/notes.json` - new sentences with intent (memorable, funny, vivid or about Adam's
    life), known words only, target form in **bold**; never copy reader sentences unless
    it's genuinely the best example; never change an existing note's `id`. Then
-   `python3 scripts/make_anki.py`, commit, and send Adam `anki/Czech-Readers.apkg` to
-   import in AnkiDroid (re-import adds new cards, keeps progress).
+   commit + push. Delivery: Adam runs `uv run scripts/anki_push.py` locally (pushes notes
+   straight into his AnkiWeb, updates in place, keeps progress; his password never goes
+   through Claude). In a LOCAL Claude Code session, run that yourself after the batch. In
+   the cloud workspace (no AnkiWeb access) remind him to run it. Fallback:
+   `python3 scripts/make_anki.py` builds `anki/Czech-Readers.apkg` to open in AnkiDroid.
 8. Ask Adam how the batch felt; record his answer in `ledger.levels.notes`. Offer him 2-3
    options for the next story or thread (self-selected reading, RESEARCH.md section 1).
 
@@ -94,4 +97,5 @@ Adam uses **uv**: scripts carry inline dependency headers, so locally prefer
 - `data/lingq/` — latest LingQ snapshots (private data, keep repo private)
 - `data/cs_50k.txt` — Czech subtitle frequency list (hermitdave/FrequencyWords)
 - `data/vocab.json` — generated lemma tiers (rebuild after each sync)
-- `anki/notes.json` — hand-written Anki sentence notes; `anki/Czech-Readers.apkg` — built deck
+- `anki/notes.json` — hand-written Anki sentence notes (source of truth for the deck)
+- `scripts/anki_push.py` — pushes notes.json into AnkiWeb (local only); `scripts/make_anki.py` — .apkg fallback
