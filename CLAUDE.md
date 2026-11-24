@@ -90,6 +90,8 @@ Adam uses **uv**: scripts carry inline dependency headers, so locally prefer
   ones once they're in `episodes/`.
 
 ## Files
+- `README.md` — Adam's own docs (how it works, setup, adding cards). Keep it in step when
+  workflows or commands change.
 - `RESEARCH.md` — the evidence behind the method, with sources and a per-batch checklist
 - `CURRICULUM.md` — stages, phases, gates, story sources
 - `episodes/sNN/` — the readers, one folder per stage
