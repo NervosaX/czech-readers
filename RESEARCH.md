@@ -65,8 +65,8 @@ matter more than any single reader.
   complex features). Combining explicit attention with lots of input appears best.
 - Explicit help works best for small, clear forms (an ending, a tense marker).
 
-**Rule:** a new form arrives inside stories with **one line** of explanation, then
-hundreds of examples. No tables to memorise, no drills (this also respects Krashen's
+**Rule:** a new form arrives inside stories with **one short note** (in the LingQ lesson
+description or in chat - never in the reader text), then hundreds of examples. No tables to memorise, no drills (this also respects Krashen's
 point about the limits of conscious rules and the affective filter).
 
 ## 5. Output
@@ -83,7 +83,8 @@ Adam wants, corrected gently, with errors fed back into the next readers.
 2. Did Adam get a say in what comes next? (self-selected)
 3. Coverage >= 95%, aiming 98%? (`scripts/check.py`)
 4. Are earlier new words coming back often enough to reach 10-20 encounters? (ledger)
-5. Is any new grammar introduced with one line and then used constantly?
+5. Is any new grammar noted briefly (lesson description / chat, not in the text) and then
+   used constantly?
 6. Does it read as relaxed and enjoyable, not like a lesson? (affective filter)
 
 ## Sources

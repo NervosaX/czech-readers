@@ -34,9 +34,9 @@ knows from the previous stage, retold with only the new form changed (e.g. a Sta
 reader in present tense → the same reader in past tense). The plot is known, so all
 attention goes to the change. Then lots of new readers before anything else is added.
 
-**Optional grammar hint.** The first ~5 readers of a stage may start with one line of
-English naming the new pattern (e.g. "-l / -la / -li = past tense: dělá → dělal").
-No tables, no explanations beyond one line. (Drop this if Adam says he doesn't want it.)
+**Grammar notes stay out of the text.** No English lines inside readers (Adam: he doesn't
+remember them and LingQ counts the English as words). When a new form arrives, put one
+short note in the LingQ lesson *description* (PATCH description) and mention it in chat.
 
 **Nothing is ever dropped.** Every stage's grammar and vocabulary stay in use in every
 later stage. A reader in Stage 9 is still full of Stage 1-8 material; only ~5% of
@@ -69,7 +69,7 @@ See `RESEARCH.md` for the evidence (coverage, repetition, compelling and narrow
 reading, explicit grammar plus input) and the per-batch checklist.
 
 Grammar is not a separate track: a new form arrives inside stories (with a one-line
-hint at most), is used constantly, and the stage gate checks that it has become
+note in the lesson description at most), is used constantly, and the stage gate checks that it has become
 automatic. The dials are what move continuously; grammar steps are occasional.
 
 ## Stages

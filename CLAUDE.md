@@ -7,7 +7,7 @@ actual LingQ vocabulary, getting closer to the originals over time.
 ## Principles
 - **`RESEARCH.md` is the evidence base.** Every batch must pass its checklist (section 6):
   compelling stories, Adam chooses what's next, 95-98% coverage, 10-20 encounters per
-  new word, one-line grammar notes, low pressure.
+  new word, short grammar notes kept OUT of the reader text, low pressure.
 - **Coverage: >=95% of tokens core / taught / half-known, aiming for ~98%** (`scripts/check.py`).
   Research: 95% = minimal comprehension, 98% = comfortable reading (Laufer & Ravenhorst-
   Kalovski 2010; Hu & Nation 2000). So 'new' tokens <=5% of a reader.
