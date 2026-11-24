@@ -64,7 +64,14 @@ actual LingQ vocabulary, getting closer to the originals over time.
    v2 /lessons/ is dead ("API is obsolete"). Check the course list first
    (`/api/v3/cs/collections/2972731/lessons/`) to avoid duplicates. Never upload a
    test fragment - upload the real episode. Fallback: hand Adam the files for Bulk Import.
-7. Ask Adam how the batch felt; record his answer in `ledger.levels.notes`. Offer him 2-3
+7. **Anki:** `python3 scripts/make_anki.py --todo` lists eligible words (in read readers,
+   not known in LingQ) without a card. Write notes for the most useful ones in
+   `anki/notes.json` - new sentences with intent (memorable, funny, vivid or about Adam's
+   life), known words only, target form in **bold**; never copy reader sentences unless
+   it's genuinely the best example; never change an existing note's `id`. Then
+   `python3 scripts/make_anki.py`, commit, and send Adam `anki/Czech-Readers.apkg` to
+   import in AnkiDroid (re-import adds new cards, keeps progress).
+8. Ask Adam how the batch felt; record his answer in `ledger.levels.notes`. Offer him 2-3
    options for the next story or thread (self-selected reading, RESEARCH.md section 1).
 
 ## Local tooling
@@ -87,3 +94,4 @@ Adam uses **uv**: scripts carry inline dependency headers, so locally prefer
 - `data/lingq/` — latest LingQ snapshots (private data, keep repo private)
 - `data/cs_50k.txt` — Czech subtitle frequency list (hermitdave/FrequencyWords)
 - `data/vocab.json` — generated lemma tiers (rebuild after each sync)
+- `anki/notes.json` — hand-written Anki sentence notes; `anki/Czech-Readers.apkg` — built deck

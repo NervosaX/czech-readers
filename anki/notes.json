@@ -1,0 +1,373 @@
+[
+ {
+  "id": "mít",
+  "form": "nemáš",
+  "sentence": "Proč **nemáš** boty? Venku je zima!",
+  "en": "Why don't you have shoes on? It's cold outside!",
+  "note": "nemáš = you don't have (ne + máš)"
+ },
+ {
+  "id": "ty",
+  "form": "ti",
+  "sentence": "Dám **ti** buchtu, ale jenom jednu.",
+  "en": "I'll give you a bun, but only one.",
+  "note": "ti = (to) you"
+ },
+ {
+  "id": "on",
+  "form": "ho",
+  "sentence": "Kde je můj telefon? Nevidím **ho**.",
+  "en": "Where's my phone? I can't see it.",
+  "note": "ho = him / it (object form of on)"
+ },
+ {
+  "id": "on2",
+  "form": "mu",
+  "sentence": "Dědeček má hlad, tak **mu** dám polévku.",
+  "en": "Grandpa's hungry, so I'll give him soup.",
+  "note": "mu = (to) him"
+ },
+ {
+  "id": "vědět",
+  "form": "ví",
+  "sentence": "Kočka **ví**, kde je myš. Pes to neví.",
+  "en": "The cat knows where the mouse is. The dog doesn't.",
+  "note": "ví = knows · neví = doesn't know (vědět)"
+ },
+ {
+  "id": "vědět2",
+  "form": "víte",
+  "sentence": "**Víte**, kde je tady pivo?",
+  "en": "Do you know where the beer is around here?",
+  "note": "víte = you know (vy / polite)"
+ },
+ {
+  "id": "tady",
+  "form": "tu",
+  "sentence": "Nikdo **tu** není. Jsem **tu** sám.",
+  "en": "Nobody's here. I'm here alone.",
+  "note": "tu = tady = here"
+ },
+ {
+  "id": "můj",
+  "form": "náš",
+  "sentence": "To je **náš** dům a **naše** zahrada.",
+  "en": "That's our house and our garden.",
+  "note": "náš / naše = our"
+ },
+ {
+  "id": "jít",
+  "form": "jdou",
+  "sentence": "Děti **jdou** do školy a pes jde spát.",
+  "en": "The kids go to school and the dog goes to sleep.",
+  "note": "jdou = they go (jít)"
+ },
+ {
+  "id": "jít2",
+  "form": "jdeš",
+  "sentence": "Kam **jdeš** tak rychle?",
+  "en": "Where are you going so fast?",
+  "note": "jdeš = you go (jít)"
+ },
+ {
+  "id": "dělat",
+  "form": "nedělá",
+  "sentence": "Honza celý den **nedělá** nic. Jenom leží.",
+  "en": "Honza does nothing all day. He just lies around.",
+  "note": "nedělá = doesn't do"
+ },
+ {
+  "id": "dát",
+  "form": "dej",
+  "sentence": "**Dej** mi to, prosím. **Dám** ti to zítra zpátky.",
+  "en": "Give it to me, please. I'll give it back to you tomorrow.",
+  "note": "dej = give! · dám = I'll give (dát)"
+ },
+ {
+  "id": "tvůj",
+  "form": "tvoje",
+  "sentence": "Je to **tvoje** kočka? Sedí na stole a jí **tvoji** polévku!",
+  "en": "Is that your cat? It's sitting on the table eating your soup!",
+  "note": "tvoje / tvoji = your"
+ },
+ {
+  "id": "vidět",
+  "form": "vidíte",
+  "sentence": "**Vidíte** to? Na stromě sedí liška!",
+  "en": "Do you see that? There's a fox sitting in the tree!",
+  "note": "vidíte = you see (vy)"
+ },
+ {
+  "id": "tam",
+  "form": "tam",
+  "sentence": "Tady je kuchyně a **tam** je můj pokoj.",
+  "en": "Here's the kitchen and there's my room.",
+  "note": "tam = there"
+ },
+ {
+  "id": "rád",
+  "form": "rády",
+  "sentence": "Kočky **mají rády** ryby.",
+  "en": "Cats like fish.",
+  "note": "mít rád = to like · rády = for feminine plural"
+ },
+ {
+  "id": "hodně",
+  "form": "hodně",
+  "sentence": "V Austrálii je **hodně** slunce.",
+  "en": "There's a lot of sun in Australia.",
+  "note": "hodně = a lot"
+ },
+ {
+  "id": "víc",
+  "form": "víc",
+  "sentence": "Chceš **víc** kaše? – Ne, děkuju, už nemůžu.",
+  "en": "Do you want more porridge? – No thanks, I can't any more.",
+  "note": "víc = more"
+ },
+ {
+  "id": "někdo",
+  "form": "někdo",
+  "sentence": "**Někdo** je u dveří! – Neotvírej!",
+  "en": "Someone's at the door! – Don't open it!",
+  "note": "někdo = someone"
+ },
+ {
+  "id": "přijít",
+  "form": "nepřijde",
+  "sentence": "Je pozdě. Myslím, že už **nepřijde**.",
+  "en": "It's late. I don't think he's coming now.",
+  "note": "přijde = (he) will come · nepřijde = won't come"
+ },
+ {
+  "id": "najít",
+  "form": "najde",
+  "sentence": "Pes **najde** každou kost na zahradě.",
+  "en": "The dog finds every bone in the garden.",
+  "note": "najde = (he) finds / will find (najít)"
+ },
+ {
+  "id": "vzít",
+  "form": "vezme",
+  "sentence": "Kočka **vezme** rybu a běží pryč.",
+  "en": "The cat grabs the fish and runs off.",
+  "note": "vezme = (he/she) takes (vzít)"
+ },
+ {
+  "id": "podívat",
+  "form": "podívej se",
+  "sentence": "**Podívej se** na to! Pes tancuje!",
+  "en": "Look at that! The dog is dancing!",
+  "note": "podívej se = look! (podívat se)"
+ },
+ {
+  "id": "kdyby",
+  "form": "kdybys",
+  "sentence": "**Kdybys** měl hlad, v kuchyni je polévka.",
+  "en": "If you get hungry, there's soup in the kitchen.",
+  "note": "kdybys = if you (kdyby + -s for ty)"
+ },
+ {
+  "id": "celý",
+  "form": "celou",
+  "sentence": "Spal jsem **celou** noc jako dřevo.",
+  "en": "I slept the whole night like a log.",
+  "note": "celou = whole (celá → celou, object form)"
+ },
+ {
+  "id": "sám",
+  "form": "sám",
+  "sentence": "Nechci jít **sám**. Pojď se mnou!",
+  "en": "I don't want to go alone. Come with me!",
+  "note": "sám = alone, by himself"
+ },
+ {
+  "id": "sem",
+  "form": "sem",
+  "sentence": "Pojď **sem**! Ne tam – **sem**!",
+  "en": "Come here! Not there – here!",
+  "note": "sem = (to) here, direction · tady = here, place"
+ },
+ {
+  "id": "slyšet",
+  "form": "slyšíš",
+  "sentence": "Psst! **Slyšíš** to? Někdo je v kuchyni.",
+  "en": "Shh! Do you hear that? Someone's in the kitchen.",
+  "note": "slyšíš = you hear (slyšet)"
+ },
+ {
+  "id": "opravdu",
+  "form": "opravdu",
+  "sentence": "Tohle je **opravdu** dobré pivo.",
+  "en": "This really is good beer.",
+  "note": "opravdu = really"
+ },
+ {
+  "id": "nikdo",
+  "form": "nikomu",
+  "sentence": "Neříkej to **nikomu**! **Nikdo** to nesmí vědět.",
+  "en": "Don't tell anyone! Nobody can know.",
+  "note": "nikdo = nobody · nikomu = (to) nobody"
+ },
+ {
+  "id": "trocha",
+  "form": "trochu",
+  "sentence": "Mluvím česky jenom **trochu**.",
+  "en": "I only speak a little Czech.",
+  "note": "trochu = a little"
+ },
+ {
+  "id": "jenom",
+  "form": "jenom",
+  "sentence": "Mám **jenom** pět minut.",
+  "en": "I've only got five minutes.",
+  "note": "jenom = only"
+ },
+ {
+  "id": "bez",
+  "form": "bez",
+  "sentence": "Kávu **bez** mléka, prosím.",
+  "en": "Coffee without milk, please.",
+  "note": "bez = without (mléko → bez mléka)"
+ },
+ {
+  "id": "dost",
+  "form": "dost",
+  "sentence": "Už je toho **dost**! Jdu spát.",
+  "en": "That's enough! I'm going to bed.",
+  "note": "dost = enough"
+ },
+ {
+  "id": "čekat",
+  "form": "čekám",
+  "sentence": "**Čekám** na autobus už hodinu.",
+  "en": "I've been waiting for the bus for an hour.",
+  "note": "čekám = I wait / I'm waiting (čekat)"
+ },
+ {
+  "id": "bát",
+  "form": "neboj se",
+  "sentence": "**Neboj se**, ten pes je hodný.",
+  "en": "Don't be scared, that dog is friendly.",
+  "note": "neboj se = don't be afraid (bát se)"
+ },
+ {
+  "id": "poslouchat",
+  "form": "poslouchám",
+  "sentence": "Ráno **poslouchám** český podcast.",
+  "en": "In the morning I listen to a Czech podcast.",
+  "note": "poslouchám = I listen (poslouchat)"
+ },
+ {
+  "id": "hrát",
+  "form": "hraju",
+  "sentence": "Večer **hraju** hry na počítači.",
+  "en": "In the evening I play games on the computer.",
+  "note": "hraju = I play (hrát) – not hledat (search)!"
+ },
+ {
+  "id": "kam",
+  "form": "kam",
+  "sentence": "**Kam** jsi dal moje boty?!",
+  "en": "Where did you put my shoes?!",
+  "note": "kam = where to (direction) · kde = where (place)"
+ },
+ {
+  "id": "druhý",
+  "form": "druhá",
+  "sentence": "Jedna kočka spí, **druhá** jí.",
+  "en": "One cat is sleeping, the other is eating.",
+  "note": "druhá = the other / second"
+ },
+ {
+  "id": "vždycky",
+  "form": "vždycky",
+  "sentence": "Na kávu mám čas **vždycky**.",
+  "en": "I always have time for coffee.",
+  "note": "vždycky = always"
+ },
+ {
+  "id": "hlava",
+  "form": "hlava",
+  "sentence": "Bolí mě **hlava**.",
+  "en": "I've got a headache.",
+  "note": "hlava = head (bolí mě hlava = my head hurts)"
+ },
+ {
+  "id": "pryč",
+  "form": "pryč",
+  "sentence": "Moje peníze jsou **pryč**!",
+  "en": "My money's gone!",
+  "note": "pryč = gone, away"
+ },
+ {
+  "id": "zase",
+  "form": "zase",
+  "sentence": "**Zase** práce. Ach jo.",
+  "en": "Work again. Oh well.",
+  "note": "zase = again"
+ },
+ {
+  "id": "běžet",
+  "form": "běží",
+  "sentence": "Proč ten pes **běží** tak rychle? – Vidí kočku.",
+  "en": "Why is that dog running so fast? – It's seen a cat.",
+  "note": "běží = runs (běžet)"
+ },
+ {
+  "id": "rozumět",
+  "form": "rozumíš",
+  "sentence": "**Rozumíš** mi, když mluvím rychle?",
+  "en": "Do you understand me when I talk fast?",
+  "note": "rozumíš = you understand (rozumět)"
+ },
+ {
+  "id": "spolu",
+  "form": "spolu",
+  "sentence": "Jíme vždycky **spolu**, ráno i večer.",
+  "en": "We always eat together, morning and evening.",
+  "note": "spolu = together"
+ },
+ {
+  "id": "potom",
+  "form": "potom",
+  "sentence": "Nejdřív práce, **potom** pivo.",
+  "en": "Work first, then beer.",
+  "note": "potom = then, afterwards"
+ },
+ {
+  "id": "zítra",
+  "form": "zítra",
+  "sentence": "Dnes nemám čas, ale **zítra** ano.",
+  "en": "I don't have time today, but tomorrow, yes.",
+  "note": "zítra = tomorrow"
+ },
+ {
+  "id": "ven",
+  "form": "ven",
+  "sentence": "Pes stojí u dveří. Chce **ven**.",
+  "en": "The dog is standing by the door. It wants to go out.",
+  "note": "ven = out (direction) · venku = outside (place)"
+ },
+ {
+  "id": "dál",
+  "form": "dál",
+  "sentence": "Ťuk, ťuk! – Pojďte **dál**!",
+  "en": "Knock knock! – Come in!",
+  "note": "pojďte dál = come in · dál = further, on"
+ },
+ {
+  "id": "lepší",
+  "form": "lepší",
+  "sentence": "Domácí polévka je **lepší** než v restauraci.",
+  "en": "Homemade soup is better than in a restaurant.",
+  "note": "lepší = better"
+ },
+ {
+  "id": "přes",
+  "form": "přes",
+  "sentence": "Liška běží **přes** cestu.",
+  "en": "A fox runs across the road.",
+  "note": "přes = across, over"
+ }
+]
