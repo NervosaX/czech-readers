@@ -34,6 +34,9 @@ actual LingQ vocabulary, getting closer to the originals over time.
 - Doubling for effect ("jí a jí", "spí a spí", "rychle, rychle") only where the original
   tale has it or for real emphasis - at most once in a reader, not as a habit.
 - Adam's messages are concise; give him trade-offs, not specs.
+- **Endings must land.** Give every story (and every serial episode) a satisfying close:
+  set up the punchline or twist, give it room, show what it means for the characters.
+  Never end on a compressed one-liner. Cliffhangers are fine mid-serial, not at the end.
 - Stories should get richer as he improves: longer, more complex sentences, more
   literary texture - not just more vocabulary.
 
